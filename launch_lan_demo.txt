@@ -1,1 +1,1 @@
-& "C:\Users\zonks\Documents\Unreal\Engine\Engine\Binaries\Win64\UE4Editor.exe" "C:\Users\zonks\Documents\Unreal\Projects\UnrealPong\UnrealPong.uproject" -game -log -nosteam
+& "path_to_engine\Engine\Binaries\Win64\UE4Editor.exe" "path_to_project\UnrealPong\UnrealPong.uproject" -game -log
