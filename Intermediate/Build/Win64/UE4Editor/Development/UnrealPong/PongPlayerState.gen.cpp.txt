@@ -1,7 +1,0 @@
-C:\Users\zonks\Documents\Unreal\Projects\UnrealPong\Intermediate\Build\Win64\UE4Editor\Development\UnrealPong\Definitions.UnrealPong.h
-C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\zonks\Documents\Unreal\Projects\UnrealPong\Source\UnrealPong/Public/Core/PongPlayerState.h
-C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerState.h
-C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PlayerState.generated.h
-C:\Users\zonks\Documents\Unreal\Projects\UnrealPong\Intermediate\Build\Win64\UE4Editor\Inc\UnrealPong\PongPlayerState.generated.h
