@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\MobuLiveLink\Source\MobuLiveLinkPlugin2016.Target.cs" />
+    <None Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\MobuLiveLink\Source\MobuLiveLink.tps" />
+    <None Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\MobuLiveLink\Source\MobuLiveLinkPlugin.bat" />
+    <None Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\MobuLiveLink\Source\MobuLiveLinkPlugin.xml" />
+    <None Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\MobuLiveLink\Source\MobuLiveLinkPlugin2016.Build.cs" />
+    <None Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\MobuLiveLink\Source\MobuLiveLinkPlugin2017.Build.cs" />
+    <None Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\MobuLiveLink\Source\MobuLiveLinkPlugin2018.Build.cs" />
+    <None Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\MobuLiveLink\Source\MobuLiveLinkPlugin2019.Build.cs" />
+    <None Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\MobuLiveLink\Source\MobuLiveLinkPlugin2020.Build.cs" />
+    <None Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\MobuLiveLink\Source\MobuLiveLinkPlugin2022.Build.cs" />
+    <Filter Include="Private">
+      <UniqueIdentifier>{4B0FA761-F8C3-4FF8-9FF6-A6B458E71528}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\MobuLiveLink\Source\Private\MobuLiveLink.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\MobuLiveLink\Source\Private\MobuLiveLinkDevice.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\MobuLiveLink\Source\Private\MobuLiveLinkLayout.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\MobuLiveLink\Source\Private\MobuLiveLinkPluginPrivatePCH.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\MobuLiveLink\Source\Private\MobuLiveLinkUtilities.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\MobuLiveLink\Source\Private\StreamObjectManagement.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <Filter Include="Public">
+      <UniqueIdentifier>{6106B200-309D-48F2-8A5C-41E56AFBE772}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\MobuLiveLink\Source\Public\IStreamObject.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\MobuLiveLink\Source\Public\MobuLiveLinkCommon.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\MobuLiveLink\Source\Public\MobuLiveLinkDevice.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\MobuLiveLink\Source\Public\MobuLiveLinkLayout.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\MobuLiveLink\Source\Public\MobuLiveLinkStreamObjects.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\MobuLiveLink\Source\Public\MobuLiveLinkUtilities.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <Filter Include="StreamObjects">
+      <UniqueIdentifier>{CA1567A7-B023-4B3F-B207-A885BF6CEEEC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StreamObjects\Private">
+      <UniqueIdentifier>{33270FAA-7899-4BC9-8679-670FD5C99570}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\MobuLiveLink\Source\StreamObjects\Private\CameraStreamObject.cpp">
+      <Filter>StreamObjects\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\MobuLiveLink\Source\StreamObjects\Private\EditorActiveCameraStreamObject.cpp">
+      <Filter>StreamObjects\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\MobuLiveLink\Source\StreamObjects\Private\LightStreamObject.cpp">
+      <Filter>StreamObjects\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\MobuLiveLink\Source\StreamObjects\Private\ModelStreamObject.cpp">
+      <Filter>StreamObjects\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\MobuLiveLink\Source\StreamObjects\Private\SkeletonHierarchyStreamObject.cpp">
+      <Filter>StreamObjects\Private</Filter>
+    </ClCompile>
+    <Filter Include="StreamObjects\Public">
+      <UniqueIdentifier>{CCF5482F-F7A4-42E2-A817-99DE3A36FD4B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\MobuLiveLink\Source\StreamObjects\Public\CameraStreamObject.h">
+      <Filter>StreamObjects\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\MobuLiveLink\Source\StreamObjects\Public\EditorActiveCameraStreamObject.h">
+      <Filter>StreamObjects\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\MobuLiveLink\Source\StreamObjects\Public\LightStreamObject.h">
+      <Filter>StreamObjects\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\MobuLiveLink\Source\StreamObjects\Public\ModelStreamObject.h">
+      <Filter>StreamObjects\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\MobuLiveLink\Source\StreamObjects\Public\SkeletonHierarchyStreamObject.h">
+      <Filter>StreamObjects\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

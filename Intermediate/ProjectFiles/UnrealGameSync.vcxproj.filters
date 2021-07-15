@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\UnrealGameSync.Target.cs" />
+    <None Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\UnrealGameSync.Build.cs" />
+    <Filter Include="Private">
+      <UniqueIdentifier>{C109600C-6697-4E0C-9BC0-27F8B5C1A55E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\ArchiveManifest.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\ArchiveManifest.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\AsyncPipedProcess.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\AsyncPipedProcess.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\BuildStep.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\BuildStep.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\ChildProcess.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\ChildProcess.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\DetectProjectSettingsTask.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\DetectProjectSettingsTask.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\EventMonitor.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\EventMonitor.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\FileFilter.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\FileFilter.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\ModalTask.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\ModalTask.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\OutputAdapters.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\OutputAdapters.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Perforce.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Perforce.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\PerforceModalTask.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\PerforceModalTask.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\PerforceMonitor.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\PerforceMonitor.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Stopwatch.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Stopwatch.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Telemetry.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Telemetry.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\ThreadSafeMessageQueue.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\ThreadSafeMessageQueue.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\UnrealGameSyncApp.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\UnrealGameSyncApp.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\UnrealGameSyncStyleSet.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\UnrealGameSyncStyleSet.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\UpdateMonitor.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\UpdateMonitor.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\UserConfigFile.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\UserConfigFile.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\UserSettings.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\UserSettings.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Utility.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Utility.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Workspace.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Workspace.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <Filter Include="Private\Dialogs">
+      <UniqueIdentifier>{09B4F284-BDD2-4FF0-9B91-3AB19B2F3CC3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Dialogs\SChangeNumberDialog.cpp">
+      <Filter>Private\Dialogs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Dialogs\SChangeNumberDialog.h">
+      <Filter>Private\Dialogs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Dialogs\SPerforceSettingsDialog.cpp">
+      <Filter>Private\Dialogs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Dialogs\SPerforceSettingsDialog.h">
+      <Filter>Private\Dialogs</Filter>
+    </ClInclude>
+    <Filter Include="Private\Forms">
+      <UniqueIdentifier>{A346AC23-1099-4B08-B5CC-0DB4C7B3B1A7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Forms\BuildStepWindow.cpp">
+      <Filter>Private\Forms</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Forms\BuildStepWindow.h">
+      <Filter>Private\Forms</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Forms\ClobberWindow.cpp">
+      <Filter>Private\Forms</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Forms\ClobberWindow.h">
+      <Filter>Private\Forms</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Forms\ConnectWindow.cpp">
+      <Filter>Private\Forms</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Forms\ConnectWindow.h">
+      <Filter>Private\Forms</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Forms\LeaveCommentWindow.cpp">
+      <Filter>Private\Forms</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Forms\LeaveCommentWindow.h">
+      <Filter>Private\Forms</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Forms\MainWindow.cpp">
+      <Filter>Private\Forms</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Forms\MainWindow.h">
+      <Filter>Private\Forms</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Forms\ModalTaskWindow.cpp">
+      <Filter>Private\Forms</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Forms\ModalTaskWindow.h">
+      <Filter>Private\Forms</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Forms\ModifyBuildStepsWindow.cpp">
+      <Filter>Private\Forms</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Forms\ModifyBuildStepsWindow.h">
+      <Filter>Private\Forms</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Forms\NewWorkspaceWindow.cpp">
+      <Filter>Private\Forms</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Forms\NewWorkspaceWindow.h">
+      <Filter>Private\Forms</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Forms\PasswordWindow.cpp">
+      <Filter>Private\Forms</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Forms\PasswordWindow.h">
+      <Filter>Private\Forms</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Forms\ScheduleWindow.cpp">
+      <Filter>Private\Forms</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Forms\ScheduleWindow.h">
+      <Filter>Private\Forms</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Forms\SelectProjectFromWorkspaceWindow.cpp">
+      <Filter>Private\Forms</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Forms\SelectProjectFromWorkspaceWindow.h">
+      <Filter>Private\Forms</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Forms\SelectStreamWindow.cpp">
+      <Filter>Private\Forms</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Forms\SelectStreamWindow.h">
+      <Filter>Private\Forms</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Forms\SelectUserWindow.cpp">
+      <Filter>Private\Forms</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Forms\SelectUserWindow.h">
+      <Filter>Private\Forms</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Forms\SelectWorkspaceWindow.cpp">
+      <Filter>Private\Forms</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Forms\SelectWorkspaceWindow.h">
+      <Filter>Private\Forms</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Forms\SyncFilterWindow.cpp">
+      <Filter>Private\Forms</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Forms\SyncFilterWindow.h">
+      <Filter>Private\Forms</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Forms\VariablesWindow.cpp">
+      <Filter>Private\Forms</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Forms\VariablesWindow.h">
+      <Filter>Private\Forms</Filter>
+    </ClInclude>
+    <Filter Include="Private\Platforms">
+      <UniqueIdentifier>{2C5A7F87-BC7C-42B0-8622-E4AE25D96CDA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\Platforms\GenericPlatform">
+      <UniqueIdentifier>{D9802EE2-CAEF-409C-8CFE-EB7791D95A35}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Platforms\GenericPlatform\GenericPlatformChildProcess.cpp">
+      <Filter>Private\Platforms\GenericPlatform</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Platforms\GenericPlatform\GenericPlatformChildProcess.h">
+      <Filter>Private\Platforms\GenericPlatform</Filter>
+    </ClInclude>
+    <Filter Include="Private\Platforms\Linux">
+      <UniqueIdentifier>{36E51E79-69FC-467A-ADF6-E5E0F05525C6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Platforms\Linux\UnrealGameSyncMainLinux.cpp">
+      <Filter>Private\Platforms\Linux</Filter>
+    </ClCompile>
+    <Filter Include="Private\Platforms\Mac">
+      <UniqueIdentifier>{CA345F16-6951-49A1-A35A-EE7BE29717FC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Platforms\Mac\UnrealGameSyncMainMac.cpp">
+      <Filter>Private\Platforms\Mac</Filter>
+    </ClCompile>
+    <Filter Include="Private\Platforms\Windows">
+      <UniqueIdentifier>{5DA718F3-6142-4362-9589-E134D9A8BA56}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Platforms\Windows\ScopedHandle.cpp">
+      <Filter>Private\Platforms\Windows</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Platforms\Windows\ScopedHandle.h">
+      <Filter>Private\Platforms\Windows</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Platforms\Windows\ScopedProcessHandle.cpp">
+      <Filter>Private\Platforms\Windows</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Platforms\Windows\ScopedProcessHandle.h">
+      <Filter>Private\Platforms\Windows</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Platforms\Windows\UnrealGameSyncMainWindows.cpp">
+      <Filter>Private\Platforms\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Platforms\Windows\WindowsPlatformChildProcess.cpp">
+      <Filter>Private\Platforms\Windows</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Platforms\Windows\WindowsPlatformChildProcess.h">
+      <Filter>Private\Platforms\Windows</Filter>
+    </ClInclude>
+    <Filter Include="Private\Widgets">
+      <UniqueIdentifier>{0DBE436A-EA4C-429E-81A5-B9EA8A5EAD4C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Widgets\SBadgeWidget.cpp">
+      <Filter>Private\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Widgets\SBadgeWidget.h">
+      <Filter>Private\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Widgets\SBuildListWidget.cpp">
+      <Filter>Private\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Widgets\SBuildListWidget.h">
+      <Filter>Private\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Widgets\SLogWidget.cpp">
+      <Filter>Private\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Widgets\SLogWidget.h">
+      <Filter>Private\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Widgets\SStatusPanelWidget.cpp">
+      <Filter>Private\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Widgets\SStatusPanelWidget.h">
+      <Filter>Private\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Widgets\SSyncFilterWidget.cpp">
+      <Filter>Private\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Widgets\SSyncFilterWidget.h">
+      <Filter>Private\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Widgets\STabWidget.cpp">
+      <Filter>Private\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Widgets\STabWidget.h">
+      <Filter>Private\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Widgets\SWorkspaceWidget.cpp">
+      <Filter>Private\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\UnrealGameSyncSlate\Private\Widgets\SWorkspaceWidget.h">
+      <Filter>Private\Widgets</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\Solaris\uLangTests\ToolchainDependencies_Test\ToolchainDependencies_Test.Target.cs" />
+    <None Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\Solaris\uLangTests\ToolchainDependencies_Test\CMakeLists.txt" />
+    <None Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\Solaris\uLangTests\ToolchainDependencies_Test\ToolchainDependencies_Test.Build.cs" />
+    <Filter Include="Private">
+      <UniqueIdentifier>{6072842C-9396-4E54-820F-5D51275E8880}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\Solaris\uLangTests\ToolchainDependencies_Test\Private\ToolchainDependencies_Test.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <Filter Include="Private\uLang">
+      <UniqueIdentifier>{E07374A6-8CC5-4624-8554-C83BDF129B89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\uLang\Testing">
+      <UniqueIdentifier>{B57E6C8B-9486-4D06-ACE0-39BB329C054B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\Solaris\uLangTests\ToolchainDependencies_Test\Private\uLang\Testing\ModularFeatureTests.cpp">
+      <Filter>Private\uLang\Testing</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

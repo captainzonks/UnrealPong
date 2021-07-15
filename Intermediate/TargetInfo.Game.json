@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "UnrealPong",
+			"Path": "C:\\Users\\zonks\\Documents\\Unreal\\Projects\\UnrealPong\\Source\\UnrealPong.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "UnrealPongEditor",
+			"Path": "C:\\Users\\zonks\\Documents\\Unreal\\Projects\\UnrealPong\\Source\\UnrealPongEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

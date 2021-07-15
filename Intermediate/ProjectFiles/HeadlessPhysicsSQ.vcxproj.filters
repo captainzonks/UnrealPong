@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\HeadlessPhysicsSQ\HeadlessPhysicsSQ.Target.cs" />
+    <None Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\HeadlessPhysicsSQ\HeadlessPhysicsSQ.Build.cs" />
+    <Filter Include="Private">
+      <UniqueIdentifier>{7F1B501C-C285-4EFF-8A24-B75EEE1613F4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\HeadlessPhysicsSQ\Private\HeadlessPhysicsSQApp.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\HeadlessPhysicsSQ\Private\HeadlessPhysicsSQCaptureTest.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\HeadlessPhysicsSQ\Private\HeadlessPhysicsSQQueryTest.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\HeadlessPhysicsSQ\Private\HeadlessPhysicsSQSerializationTest.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\HeadlessPhysicsSQ\Private\HeadlessPhysicsSQTestsUtil.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <Filter Include="Public">
+      <UniqueIdentifier>{710F474B-CFED-4861-9A51-84226E3AA740}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\HeadlessPhysicsSQ\Public\HeadlessPhysicsSQ.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\HeadlessPhysicsSQ\Public\HeadlessPhysicsSQApp.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\HeadlessPhysicsSQ\Public\HeadlessPhysicsSQTests.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

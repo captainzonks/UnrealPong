@@ -1,0 +1,1769 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Invalid|Win32">
+      <Configuration>Invalid</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Invalid|x64">
+      <Configuration>Invalid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Invalid|arm64">
+      <Configuration>Invalid</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|arm64">
+      <Configuration>Debug</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Editor|Win32">
+      <Configuration>Debug_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Editor|x64">
+      <Configuration>Debug_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Editor|arm64">
+      <Configuration>Debug_Editor</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug|Win32">
+      <Configuration>Mac_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug|x64">
+      <Configuration>Mac_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug|arm64">
+      <Configuration>Mac_Debug</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug_Editor|Win32">
+      <Configuration>Mac_Debug_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug_Editor|x64">
+      <Configuration>Mac_Debug_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug_Editor|arm64">
+      <Configuration>Mac_Debug_Editor</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Debug|Win32">
+      <Configuration>IOS_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Debug|x64">
+      <Configuration>IOS_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Debug|arm64">
+      <Configuration>IOS_Debug</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_Debug|Win32">
+      <Configuration>TVOS_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_Debug|x64">
+      <Configuration>TVOS_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_Debug|arm64">
+      <Configuration>TVOS_Debug</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame|Win32">
+      <Configuration>DebugGame</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame|x64">
+      <Configuration>DebugGame</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame|arm64">
+      <Configuration>DebugGame</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Editor|Win32">
+      <Configuration>DebugGame_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Editor|x64">
+      <Configuration>DebugGame_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Editor|arm64">
+      <Configuration>DebugGame_Editor</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame|Win32">
+      <Configuration>Mac_DebugGame</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame|x64">
+      <Configuration>Mac_DebugGame</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame|arm64">
+      <Configuration>Mac_DebugGame</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame_Editor|Win32">
+      <Configuration>Mac_DebugGame_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame_Editor|x64">
+      <Configuration>Mac_DebugGame_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame_Editor|arm64">
+      <Configuration>Mac_DebugGame_Editor</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_DebugGame|Win32">
+      <Configuration>IOS_DebugGame</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_DebugGame|x64">
+      <Configuration>IOS_DebugGame</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_DebugGame|arm64">
+      <Configuration>IOS_DebugGame</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_DebugGame|Win32">
+      <Configuration>TVOS_DebugGame</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_DebugGame|x64">
+      <Configuration>TVOS_DebugGame</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_DebugGame|arm64">
+      <Configuration>TVOS_DebugGame</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development|Win32">
+      <Configuration>Development</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development|x64">
+      <Configuration>Development</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development|arm64">
+      <Configuration>Development</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Editor|Win32">
+      <Configuration>Development_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Editor|x64">
+      <Configuration>Development_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Editor|arm64">
+      <Configuration>Development_Editor</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development|Win32">
+      <Configuration>Mac_Development</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development|x64">
+      <Configuration>Mac_Development</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development|arm64">
+      <Configuration>Mac_Development</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development_Editor|Win32">
+      <Configuration>Mac_Development_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development_Editor|x64">
+      <Configuration>Mac_Development_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development_Editor|arm64">
+      <Configuration>Mac_Development_Editor</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Development|Win32">
+      <Configuration>IOS_Development</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Development|x64">
+      <Configuration>IOS_Development</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Development|arm64">
+      <Configuration>IOS_Development</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_Development|Win32">
+      <Configuration>TVOS_Development</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_Development|x64">
+      <Configuration>TVOS_Development</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_Development|arm64">
+      <Configuration>TVOS_Development</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping|Win32">
+      <Configuration>Shipping</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping|x64">
+      <Configuration>Shipping</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping|arm64">
+      <Configuration>Shipping</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Shipping|Win32">
+      <Configuration>Mac_Shipping</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Shipping|x64">
+      <Configuration>Mac_Shipping</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Shipping|arm64">
+      <Configuration>Mac_Shipping</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Shipping|Win32">
+      <Configuration>IOS_Shipping</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Shipping|x64">
+      <Configuration>IOS_Shipping</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Shipping|arm64">
+      <Configuration>IOS_Shipping</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_Shipping|Win32">
+      <Configuration>TVOS_Shipping</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_Shipping|x64">
+      <Configuration>TVOS_Shipping</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_Shipping|arm64">
+      <Configuration>TVOS_Shipping</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test|Win32">
+      <Configuration>Test</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test|x64">
+      <Configuration>Test</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test|arm64">
+      <Configuration>Test</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Test|Win32">
+      <Configuration>Mac_Test</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Test|x64">
+      <Configuration>Mac_Test</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Test|arm64">
+      <Configuration>Mac_Test</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Test|Win32">
+      <Configuration>IOS_Test</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Test|x64">
+      <Configuration>IOS_Test</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Test|arm64">
+      <Configuration>IOS_Test</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_Test|Win32">
+      <Configuration>TVOS_Test</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_Test|x64">
+      <Configuration>TVOS_Test</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_Test|arm64">
+      <Configuration>TVOS_Test</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F75DFD32-2369-4536-BC05-D377A1F446F6}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>UnrealPong</RootNamespace>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+    <MinimumVisualStudioVersion>16.0</MinimumVisualStudioVersion>
+    <NMakeUseOemCodePage>true</NMakeUseOemCodePage>
+    <TargetRuntime>Native</TargetRuntime>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectCapability Include="MLProject" />
+    <PropertyPageSchema Include="$(LOCALAPPDATA)\Microsoft\VisualStudio\MagicLeap\debugger.xaml" />
+  </ItemGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Debug|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_DebugGame|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Development|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Shipping|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Test|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Test|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Debug|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Debug|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_DebugGame|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_DebugGame|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_DebugGame|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Development|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Development|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Development|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Shipping|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Shipping|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Shipping|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Test|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Test|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Test|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Test|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Test|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Test|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|Win32'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|arm64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat UnrealPong Win32 Debug -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat UnrealPong Win32 Debug -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat UnrealPong Win32 Debug -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win32\UnrealPong-Win32-Debug.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat UnrealPong Win64 Debug -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat UnrealPong Win64 Debug -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat UnrealPong Win64 Debug -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\UnrealPong-Win64-Debug.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat -Target="UnrealPongEditor Win64 Debug -Project=\"$(SolutionDir)UnrealPong.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat -Target="UnrealPongEditor Win64 Debug -Project=\"$(SolutionDir)UnrealPong.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat -Target="UnrealPongEditor Win64 Debug -Project=\"$(SolutionDir)UnrealPong.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Users\zonks\Documents\Unreal\Engine\Engine\Binaries\Win64\UE4Editor-Win64-Debug.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat UnrealPong HoloLens Debug -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat UnrealPong HoloLens Debug -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat UnrealPong HoloLens Debug -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\HoloLens\UnrealPong-HoloLens-Debug.exe</NMakeOutput>
+		<AdditionalOptions>/ZW /ZW:nostdlib</AdditionalOptions>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_HOLOLENS=1;HOLOLENS=1;</NMakePreprocessorDefinitions>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath);C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\lib\x86\Store\references</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies);C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.FoundationContract\4.0.0.0\Windows.Foundation.FoundationContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.UniversalApiContract\10.0.0.0\Windows.Foundation.UniversalApiContract.winmd;platform.winmd</NMakeForcedUsingAssemblies>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'">
+		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
+		<LayoutDir>C:\Users\zonks\Documents\Unreal\Projects\UnrealPong\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>C:\Users\zonks\Documents\Unreal\Projects\UnrealPong\Binaries\HoloLens\UnrealPong.build.appxrecipe</AppxPackageRecipe>
+	</PropertyGroup>
+    <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'">
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Simulator.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Remote.xml" />
+    </ItemGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat UnrealPong Mac Debug -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat UnrealPong Mac Debug -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat UnrealPong Mac Debug -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\UnrealPong-Mac-Debug</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat -Target="UnrealPongEditor Mac Debug -Project=\"$(SolutionDir)UnrealPong.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat -Target="UnrealPongEditor Mac Debug -Project=\"$(SolutionDir)UnrealPong.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat -Target="UnrealPongEditor Mac Debug -Project=\"$(SolutionDir)UnrealPong.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Users\zonks\Documents\Unreal\Engine\Engine\Binaries\Mac\UE4Editor-Mac-Debug</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat UnrealPong IOS Debug -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat UnrealPong IOS Debug -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat UnrealPong IOS Debug -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\IOS\UnrealPong-IOS-Debug</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Debug|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat UnrealPong TVOS Debug -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat UnrealPong TVOS Debug -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat UnrealPong TVOS Debug -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\TVOS\UnrealPong-TVOS-Debug</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat UnrealPong Win32 DebugGame -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat UnrealPong Win32 DebugGame -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat UnrealPong Win32 DebugGame -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win32\UnrealPong-Win32-DebugGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat UnrealPong Win64 DebugGame -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat UnrealPong Win64 DebugGame -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat UnrealPong Win64 DebugGame -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\UnrealPong-Win64-DebugGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat -Target="UnrealPongEditor Win64 DebugGame -Project=\"$(SolutionDir)UnrealPong.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat -Target="UnrealPongEditor Win64 DebugGame -Project=\"$(SolutionDir)UnrealPong.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat -Target="UnrealPongEditor Win64 DebugGame -Project=\"$(SolutionDir)UnrealPong.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Users\zonks\Documents\Unreal\Engine\Engine\Binaries\Win64\UE4Editor-Win64-DebugGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat UnrealPong HoloLens DebugGame -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat UnrealPong HoloLens DebugGame -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat UnrealPong HoloLens DebugGame -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\HoloLens\UnrealPong-HoloLens-DebugGame.exe</NMakeOutput>
+		<AdditionalOptions>/ZW /ZW:nostdlib</AdditionalOptions>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_HOLOLENS=1;HOLOLENS=1;</NMakePreprocessorDefinitions>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath);C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\lib\x86\Store\references</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies);C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.FoundationContract\4.0.0.0\Windows.Foundation.FoundationContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.UniversalApiContract\10.0.0.0\Windows.Foundation.UniversalApiContract.winmd;platform.winmd</NMakeForcedUsingAssemblies>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'">
+		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
+		<LayoutDir>C:\Users\zonks\Documents\Unreal\Projects\UnrealPong\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>C:\Users\zonks\Documents\Unreal\Projects\UnrealPong\Binaries\HoloLens\UnrealPong.build.appxrecipe</AppxPackageRecipe>
+	</PropertyGroup>
+    <ItemGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'">
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Simulator.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Remote.xml" />
+    </ItemGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat UnrealPong Mac DebugGame -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat UnrealPong Mac DebugGame -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat UnrealPong Mac DebugGame -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\UnrealPong-Mac-DebugGame</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat -Target="UnrealPongEditor Mac DebugGame -Project=\"$(SolutionDir)UnrealPong.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat -Target="UnrealPongEditor Mac DebugGame -Project=\"$(SolutionDir)UnrealPong.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat -Target="UnrealPongEditor Mac DebugGame -Project=\"$(SolutionDir)UnrealPong.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Users\zonks\Documents\Unreal\Engine\Engine\Binaries\Mac\UE4Editor-Mac-DebugGame</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat UnrealPong IOS DebugGame -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat UnrealPong IOS DebugGame -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat UnrealPong IOS DebugGame -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\IOS\UnrealPong-IOS-DebugGame</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_DebugGame|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_DebugGame|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat UnrealPong TVOS DebugGame -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat UnrealPong TVOS DebugGame -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat UnrealPong TVOS DebugGame -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\TVOS\UnrealPong-TVOS-DebugGame</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat UnrealPong Win32 Development -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat UnrealPong Win32 Development -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat UnrealPong Win32 Development -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win32\UnrealPong.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat UnrealPong Win64 Development -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat UnrealPong Win64 Development -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat UnrealPong Win64 Development -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\UnrealPong.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat -Target="UnrealPongEditor Win64 Development -Project=\"$(SolutionDir)UnrealPong.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat -Target="UnrealPongEditor Win64 Development -Project=\"$(SolutionDir)UnrealPong.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat -Target="UnrealPongEditor Win64 Development -Project=\"$(SolutionDir)UnrealPong.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Users\zonks\Documents\Unreal\Engine\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat UnrealPong HoloLens Development -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat UnrealPong HoloLens Development -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat UnrealPong HoloLens Development -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\HoloLens\UnrealPong.exe</NMakeOutput>
+		<AdditionalOptions>/ZW /ZW:nostdlib</AdditionalOptions>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_HOLOLENS=1;HOLOLENS=1;</NMakePreprocessorDefinitions>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath);C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\lib\x86\Store\references</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies);C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.FoundationContract\4.0.0.0\Windows.Foundation.FoundationContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.UniversalApiContract\10.0.0.0\Windows.Foundation.UniversalApiContract.winmd;platform.winmd</NMakeForcedUsingAssemblies>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'">
+		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
+		<LayoutDir>C:\Users\zonks\Documents\Unreal\Projects\UnrealPong\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>C:\Users\zonks\Documents\Unreal\Projects\UnrealPong\Binaries\HoloLens\UnrealPong.build.appxrecipe</AppxPackageRecipe>
+	</PropertyGroup>
+    <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'">
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Simulator.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Remote.xml" />
+    </ItemGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat UnrealPong Mac Development -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat UnrealPong Mac Development -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat UnrealPong Mac Development -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\UnrealPong</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat -Target="UnrealPongEditor Mac Development -Project=\"$(SolutionDir)UnrealPong.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat -Target="UnrealPongEditor Mac Development -Project=\"$(SolutionDir)UnrealPong.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat -Target="UnrealPongEditor Mac Development -Project=\"$(SolutionDir)UnrealPong.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Users\zonks\Documents\Unreal\Engine\Engine\Binaries\Mac\UE4Editor</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat UnrealPong IOS Development -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat UnrealPong IOS Development -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat UnrealPong IOS Development -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\IOS\UnrealPong</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Development|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Development|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat UnrealPong TVOS Development -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat UnrealPong TVOS Development -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat UnrealPong TVOS Development -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\TVOS\UnrealPong</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat UnrealPong Win32 Shipping -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat UnrealPong Win32 Shipping -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat UnrealPong Win32 Shipping -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win32\UnrealPong-Win32-Shipping.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat UnrealPong Win64 Shipping -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat UnrealPong Win64 Shipping -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat UnrealPong Win64 Shipping -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\UnrealPong-Win64-Shipping.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat UnrealPong HoloLens Shipping -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat UnrealPong HoloLens Shipping -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat UnrealPong HoloLens Shipping -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\HoloLens\UnrealPong-HoloLens-Shipping.exe</NMakeOutput>
+		<AdditionalOptions>/ZW /ZW:nostdlib</AdditionalOptions>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_HOLOLENS=1;HOLOLENS=1;</NMakePreprocessorDefinitions>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath);C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\lib\x86\Store\references</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies);C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.FoundationContract\4.0.0.0\Windows.Foundation.FoundationContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.UniversalApiContract\10.0.0.0\Windows.Foundation.UniversalApiContract.winmd;platform.winmd</NMakeForcedUsingAssemblies>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'">
+		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
+		<LayoutDir>C:\Users\zonks\Documents\Unreal\Projects\UnrealPong\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>C:\Users\zonks\Documents\Unreal\Projects\UnrealPong\Binaries\HoloLens\UnrealPong.build.appxrecipe</AppxPackageRecipe>
+	</PropertyGroup>
+    <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'">
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Simulator.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Remote.xml" />
+    </ItemGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat UnrealPong Mac Shipping -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat UnrealPong Mac Shipping -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat UnrealPong Mac Shipping -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\UnrealPong-Mac-Shipping</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat UnrealPong IOS Shipping -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat UnrealPong IOS Shipping -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat UnrealPong IOS Shipping -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\IOS\UnrealPong-IOS-Shipping</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Shipping|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Shipping|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat UnrealPong TVOS Shipping -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat UnrealPong TVOS Shipping -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat UnrealPong TVOS Shipping -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\TVOS\UnrealPong-TVOS-Shipping</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat UnrealPong Win32 Test -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat UnrealPong Win32 Test -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat UnrealPong Win32 Test -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win32\UnrealPong-Win32-Test.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat UnrealPong Win64 Test -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat UnrealPong Win64 Test -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat UnrealPong Win64 Test -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\UnrealPong-Win64-Test.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat UnrealPong HoloLens Test -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat UnrealPong HoloLens Test -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat UnrealPong HoloLens Test -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\HoloLens\UnrealPong-HoloLens-Test.exe</NMakeOutput>
+		<AdditionalOptions>/ZW /ZW:nostdlib</AdditionalOptions>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_HOLOLENS=1;HOLOLENS=1;</NMakePreprocessorDefinitions>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath);C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\lib\x86\Store\references</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies);C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.FoundationContract\4.0.0.0\Windows.Foundation.FoundationContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.UniversalApiContract\10.0.0.0\Windows.Foundation.UniversalApiContract.winmd;platform.winmd</NMakeForcedUsingAssemblies>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64'">
+		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
+		<LayoutDir>C:\Users\zonks\Documents\Unreal\Projects\UnrealPong\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>C:\Users\zonks\Documents\Unreal\Projects\UnrealPong\Binaries\HoloLens\UnrealPong.build.appxrecipe</AppxPackageRecipe>
+	</PropertyGroup>
+    <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64'">
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Simulator.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Remote.xml" />
+    </ItemGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat UnrealPong Mac Test -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat UnrealPong Mac Test -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat UnrealPong Mac Test -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\UnrealPong-Mac-Test</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Test|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Test|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat UnrealPong IOS Test -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat UnrealPong IOS Test -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat UnrealPong IOS Test -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\IOS\UnrealPong-IOS-Test</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Test|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Test|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat UnrealPong TVOS Test -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat UnrealPong TVOS Test -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat UnrealPong TVOS Test -Project="$(SolutionDir)UnrealPong.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\TVOS\UnrealPong-TVOS-Test</NMakeOutput>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath>$(IncludePath);C:\Users\zonks\Documents\Unreal\Engine\Engine\Source;..\..\Source\UnrealPong\Private;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Slate;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Slate\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Core;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\TraceLog\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Core\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\TraceLog;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\CoreUObject\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ApplicationCore;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\ApplicationCore\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RHI;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\RHI\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\InputCore;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\InputCore\Classes;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\InputCore\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Json;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Json\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\SlateCore\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ImageWrapper;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\ImageWrapper\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Plugins\Online\OnlineSubsystem\Intermediate\Build\Win64\UE4Editor\Inc\OnlineSubsystem;C:\Users\zonks\Documents\Unreal\Engine\Engine\Plugins\Online\OnlineSubsystem;C:\Users\zonks\Documents\Unreal\Engine\Engine\Plugins\Online\OnlineSubsystem\Source;C:\Users\zonks\Documents\Unreal\Engine\Engine\Plugins\Online\OnlineSubsystem\Source\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SignalProcessing;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\SignalProcessing\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Engine\Classes;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Engine\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NetCore;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Net;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Net\Core\Classes;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Net\Core\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Messaging;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Messaging\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MessagingCommon;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\MessagingCommon\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RenderCore;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\RenderCore\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AnalyticsET;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Analytics;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Analytics\AnalyticsET\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Analytics;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Analytics\Analytics\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Sockets;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Sockets\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NetCommon;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Net\Common\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\AssetRegistry\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineMessages;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\EngineMessages\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineSettings;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\EngineSettings\Classes;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\EngineSettings\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SynthBenchmark;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\SynthBenchmark\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Renderer;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Renderer\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTags;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\GameplayTags\Classes;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\GameplayTags\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DeveloperSettings;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\DeveloperSettings\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PacketHandler;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\PacketHandlers;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\PacketHandlers\PacketHandler\Classes;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\PacketHandlers\PacketHandler\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ReliabilityHandlerComponent;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioPlatformConfiguration;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\AudioPlatformConfiguration\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshDescription;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\MeshDescription\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\StaticMeshDescription;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\StaticMeshDescription\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PakFile;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\PakFile\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RSA;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\RSA\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NetworkReplayStreaming;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\NetworkReplayStreaming;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PhysicsCore;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\PhysicsCore\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Chaos;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Experimental;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Experimental\Chaos\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ChaosCore;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Experimental\ChaosCore\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\Intel;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Voronoi;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Experimental\Voronoi\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioExtensions;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\AudioExtensions\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixerCore;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\AudioMixerCore\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyAccess;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\PropertyAccess\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Editor;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Programs\UnrealLightmass\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Developer\Android\AndroidDeviceDetection\Public\Interfaces;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Editor\UnrealEd\Classes;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Editor\UnrealEd\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DirectoryWatcher;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Developer;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Developer\DirectoryWatcher\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Documentation;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Editor\Documentation\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Projects;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Projects\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SandboxFile;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\SandboxFile\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EditorStyle;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Editor\EditorStyle\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SourceControl;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Developer\SourceControl\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEdMessages;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Editor\UnrealEdMessages\Classes;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Editor\UnrealEdMessages\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayDebugger;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Developer\GameplayDebugger\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\BlueprintGraph;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Editor\BlueprintGraph\Classes;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Editor\BlueprintGraph\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EditorSubsystem;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Editor\EditorSubsystem\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HTTP;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Online;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Online\HTTP\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealAudio;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\UnrealAudio\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\FunctionalTesting;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Developer\FunctionalTesting\Classes;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Developer\FunctionalTesting\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AutomationController;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Developer\AutomationController\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Localization;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Developer\Localization\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioEditor;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Editor\AudioEditor\Classes;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Editor\AudioEditor\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixer;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\AudioMixer\Classes;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\AudioMixer\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\TargetPlatform;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Developer\TargetPlatform\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\LevelEditor;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Editor\LevelEditor\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Settings;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Developer\Settings\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\IntroTutorials;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Editor\IntroTutorials\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\HeadMountedDisplay\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\VREditor;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Editor\VREditor;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Editor\VREditor\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CommonMenuExtensions;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Editor\CommonMenuExtensions\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Landscape;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Landscape\Classes;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Landscape\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyEditor;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Editor\PropertyEditor\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ActorPickerMode;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Editor\ActorPickerMode\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SceneDepthPickerMode;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Editor\SceneDepthPickerMode\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DetailCustomizations;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Editor\DetailCustomizations\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ClassViewer;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Editor\ClassViewer\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GraphEditor;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Editor\GraphEditor\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\StructViewer;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Editor\StructViewer\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ContentBrowser;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Editor\ContentBrowser\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ContentBrowserData;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Editor\ContentBrowserData\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CollectionManager;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Developer\CollectionManager\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UELibSampleRate;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\libSampleRate\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NetworkFileSystem;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\NetworkFileSystem\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\UMG\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\MovieScene\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\TimeManagement;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\TimeManagement\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieSceneTracks;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\MovieSceneTracks\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AnimationCore;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\AnimationCore\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyPath;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\PropertyPath\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\NavigationSystem\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshBuilder;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Developer\MeshBuilder\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MaterialShaderQualitySettings;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\MaterialShaderQualitySettings\Classes;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\InteractiveToolsFramework;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Experimental\InteractiveToolsFramework\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ToolMenusEditor;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Editor\ToolMenusEditor\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ToolMenus;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Developer\ToolMenus\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\XAudio2;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Windows;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Windows\XAudio2\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixerXAudio2;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetTagsEditor;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Editor\AssetTagsEditor\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AddContentDialog;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Editor\AddContentDialog\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshUtilities;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\Intel\Embree\Embree2140\Win64\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Developer\MeshUtilities\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshMergeUtilities;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Developer\MeshMergeUtilities\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HierarchicalLODUtilities;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Developer\HierarchicalLODUtilities\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshReductionInterface;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Developer\MeshReductionInterface\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetTools;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Developer\AssetTools\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\KismetCompiler;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Editor\KismetCompiler\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTasks;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\GameplayTasks\Classes;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\GameplayTasks\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\AIModule\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\AIModule\Classes;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Kismet;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Editor\Kismet\Classes;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Editor\Kismet\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public;..\Build\Win64\UE4Editor\Inc\UnrealPong;..\..\Source;..\..\Source\UnrealPong\Public;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt;;</IncludePath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <AdditionalOptions>/std:c++14</AdditionalOptions>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\UnrealPong.uproject"/>
+    <None Include="..\..\Source\UnrealPong.Target.cs"/>
+    <None Include="..\..\Source\UnrealPongEditor.Target.cs"/>
+    <None Include="..\..\launch_lan_demo.txt"/>
+    <None Include="..\..\Config\DefaultEditor.ini"/>
+    <None Include="..\..\Config\DefaultEngine.ini"/>
+    <None Include="..\..\Config\DefaultGame.ini"/>
+    <None Include="..\..\Config\DefaultInput.ini"/>
+    <None Include="..\..\Platforms\Android\Config\AndroidEngine.ini"/>
+    <None Include="..\..\Platforms\IOS\Config\IOSEngine.ini"/>
+    <None Include="..\..\Platforms\Linux\Config\LinuxEngine.ini"/>
+    <None Include="..\..\Platforms\Mac\Config\MacEngine.ini"/>
+    <None Include="..\..\Platforms\Windows\Config\WindowsEngine.ini"/>
+    <None Include="..\..\Source\UnrealPong\UnrealPong.Build.cs"/>
+    <ClCompile Include="..\..\Source\UnrealPong\UnrealPong.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Intermediate\Build\Win64\UE4Editor\Development\UnrealPong\Definitions.UnrealPong.h;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealPong\UnrealPong.h"/>
+    <ClCompile Include="..\..\Source\UnrealPong\Private\Actors\PongBall.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Intermediate\Build\Win64\UE4Editor\Development\UnrealPong\Definitions.UnrealPong.h;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealPong\Private\Actors\PongGoal.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Intermediate\Build\Win64\UE4Editor\Development\UnrealPong\Definitions.UnrealPong.h;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealPong\Private\Actors\PongWall.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Intermediate\Build\Win64\UE4Editor\Development\UnrealPong\Definitions.UnrealPong.h;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealPong\Private\Core\PongController.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Intermediate\Build\Win64\UE4Editor\Development\UnrealPong\Definitions.UnrealPong.h;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealPong\Private\Core\PongGameInstance.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Intermediate\Build\Win64\UE4Editor\Development\UnrealPong\Definitions.UnrealPong.h;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealPong\Private\Core\PongGameMode.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Intermediate\Build\Win64\UE4Editor\Development\UnrealPong\Definitions.UnrealPong.h;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealPong\Private\Core\PongGameState.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Intermediate\Build\Win64\UE4Editor\Development\UnrealPong\Definitions.UnrealPong.h;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealPong\Private\Core\PongPlayer.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Intermediate\Build\Win64\UE4Editor\Development\UnrealPong\Definitions.UnrealPong.h;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealPong\Private\Core\PongPlayerState.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Intermediate\Build\Win64\UE4Editor\Development\UnrealPong\Definitions.UnrealPong.h;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealPong\Private\UI\PongGameHUD.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Intermediate\Build\Win64\UE4Editor\Development\UnrealPong\Definitions.UnrealPong.h;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealPong\Private\UI\PongInGameMenu.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Intermediate\Build\Win64\UE4Editor\Development\UnrealPong\Definitions.UnrealPong.h;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealPong\Private\UI\PongMainMenu.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Intermediate\Build\Win64\UE4Editor\Development\UnrealPong\Definitions.UnrealPong.h;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealPong\Private\UI\PongMenuWidget.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Intermediate\Build\Win64\UE4Editor\Development\UnrealPong\Definitions.UnrealPong.h;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealPong\Private\UI\PongServerRow.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Intermediate\Build\Win64\UE4Editor\Development\UnrealPong\Definitions.UnrealPong.h;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealPong\Public\Actors\PongBall.h"/>
+    <ClInclude Include="..\..\Source\UnrealPong\Public\Actors\PongGoal.h"/>
+    <ClInclude Include="..\..\Source\UnrealPong\Public\Actors\PongWall.h"/>
+    <ClInclude Include="..\..\Source\UnrealPong\Public\Core\PongController.h"/>
+    <ClInclude Include="..\..\Source\UnrealPong\Public\Core\PongData.h"/>
+    <ClInclude Include="..\..\Source\UnrealPong\Public\Core\PongGameInstance.h"/>
+    <ClInclude Include="..\..\Source\UnrealPong\Public\Core\PongGameMode.h"/>
+    <ClInclude Include="..\..\Source\UnrealPong\Public\Core\PongGameState.h"/>
+    <ClInclude Include="..\..\Source\UnrealPong\Public\Core\PongPlayer.h"/>
+    <ClInclude Include="..\..\Source\UnrealPong\Public\Core\PongPlayerState.h"/>
+    <ClInclude Include="..\..\Source\UnrealPong\Public\UI\PongGameHUD.h"/>
+    <ClInclude Include="..\..\Source\UnrealPong\Public\UI\PongInGameMenu.h"/>
+    <ClInclude Include="..\..\Source\UnrealPong\Public\UI\PongMainMenu.h"/>
+    <ClInclude Include="..\..\Source\UnrealPong\Public\UI\PongMenuInterface.h"/>
+    <ClInclude Include="..\..\Source\UnrealPong\Public\UI\PongMenuWidget.h"/>
+    <ClInclude Include="..\..\Source\UnrealPong\Public\UI\PongServerRow.h"/>
+  </ItemGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <CleanDependsOn> $(CleanDependsOn); </CleanDependsOn>
+    <CppCleanDependsOn></CppCleanDependsOn>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

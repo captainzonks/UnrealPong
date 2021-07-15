@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\Solaris\uLangTests\uLangLLVM_Test\uLangLLVM_Test.Target.cs" />
+    <None Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\Solaris\uLangTests\uLangLLVM_Test\uLangLLVM_Test.Build.cs" />
+    <Filter Include="Private">
+      <UniqueIdentifier>{D3B3116A-68CA-4140-A385-210C49C07154}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\Solaris\uLangTests\uLangLLVM_Test\Private\LLVMAssembler.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\Solaris\uLangTests\uLangLLVM_Test\Private\LLVMAssembler.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\Solaris\uLangTests\uLangLLVM_Test\Private\uLangLLVM_Test.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

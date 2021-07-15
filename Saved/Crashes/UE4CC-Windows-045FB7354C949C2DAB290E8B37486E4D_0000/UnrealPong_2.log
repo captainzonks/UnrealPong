@@ -1,0 +1,763 @@
+﻿Log file open, 07/15/21 09:17:17
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: UnrealPong
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.382084
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
+LogInit: Display: Loading text-based GConfig....
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin GameplayCameras
+LogPluginManager: Mounting plugin OodleData
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin OodleNetwork
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PixWinPlugin
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin RiderLink
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin TextureFormatOodle
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin OpenImageDenoise
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin PythonScriptPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin HardwareEncoders
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OpenXR
+LogPluginManager: Mounting plugin OpenXRHandTracking
+LogPluginManager: Mounting plugin OpenXREyeTracker
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin Takes
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin BPEditorExtension
+LogPluginManager: Mounting plugin EpicStudioAnalytics
+LogPluginManager: Mounting plugin ObjectBrowser
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogWindows: Failed to load 'amfrt64.dll' (GetLastError=126)
+LogWindows: File 'amfrt64.dll' does not exist
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogD3D11RHI: D3D11 min allowed feature level: 11_0
+LogD3D11RHI: D3D11 max allowed feature level: 11_0
+LogD3D11RHI: D3D11 adapters:
+LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+LogD3D11RHI:       8079/0/16354 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+LogD3D11RHI:       0/0/16354 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+LogD3D11RHI: Chosen D3D11 Adapter: 0
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogHMD: Failed initializing OVRPlugin 1.59.0
+LogInit: Build: ++UE4+Release-4.27-CL-0
+LogInit: Engine Version: 4.27.0-0+++UE4+Release-4.27
+LogInit: Compatible Engine Version: 4.27.0-0+++UE4+Release-4.27
+LogInit: Net CL: 0
+LogInit: OS: Windows 10 (Release 2009) (), CPU: AMD Ryzen 5 3600 6-Core Processor              , GPU: NVIDIA GeForce GTX 1080
+LogInit: Compiled (64-bit): Jul 14 2021 08:36:12
+LogInit: Compiled with Visual C++: 19.29.30038.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.27
+LogInit: Command Line: -log -game
+LogInit: Base Directory: C:/Users/zonks/Documents/Unreal/Engine/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 14
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 47
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/zonks/Documents/Unreal/Projects/UnrealPong/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.07.15-15.17.18:039][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2021.07.15-15.17.18:039][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.07.15-15.17.18:040][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/zonks/Documents/Unreal/Projects/UnrealPong/Saved/Config/Windows/Engine.ini]
+[2021.07.15-15.17.18:040][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.07.15-15.17.18:041][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2021.07.15-15.17.18:044][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/zonks/Documents/Unreal/Projects/UnrealPong/Saved/Config/Windows/Engine.ini]
+[2021.07.15-15.17.18:045][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/zonks/Documents/Unreal/Projects/UnrealPong/Saved/Config/Windows/Engine.ini]
+[2021.07.15-15.17.18:046][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.07.15-15.17.18:047][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.07.15-15.17.18:047][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.07.15-15.17.18:048][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.07.15-15.17.18:048][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.07.15-15.17.18:049][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.07.15-15.17.18:049][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.07.15-15.17.18:050][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.07.15-15.17.18:051][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.07.15-15.17.18:051][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.07.15-15.17.18:051][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.07.15-15.17.18:052][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.07.15-15.17.18:052][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.07.15-15.17.18:053][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.07.15-15.17.18:053][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/zonks/Documents/Unreal/Projects/UnrealPong/Saved/Config/Windows/Engine.ini]
+[2021.07.15-15.17.18:053][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.07.15-15.17.18:054][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.07.15-15.17.18:054][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.07.15-15.17.18:054][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.07.15-15.17.18:055][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.07.15-15.17.18:055][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.07.15-15.17.18:056][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.07.15-15.17.18:056][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.07.15-15.17.18:056][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.07.15-15.17.18:061][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.07.15-15.17.18:061][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.07.15-15.17.18:062][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.07.15-15.17.18:063][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.07.15-15.17.18:063][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2021.07.15-15.17.18:064][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/zonks/Documents/Unreal/Projects/UnrealPong/Saved/Config/Windows/Engine.ini]
+[2021.07.15-15.17.18:064][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/zonks/Documents/Unreal/Projects/UnrealPong/Saved/Config/Windows/Engine.ini]
+[2021.07.15-15.17.18:086][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/zonks/Documents/Unreal/Projects/UnrealPong/Saved/Config/Windows/Scalability.ini]
+[2021.07.15-15.17.18:086][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.07.15-15.17.18:086][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.07.15-15.17.18:087][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/zonks/Documents/Unreal/Projects/UnrealPong/Saved/Config/Windows/Scalability.ini]
+[2021.07.15-15.17.18:087][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.07.15-15.17.18:087][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/zonks/Documents/Unreal/Projects/UnrealPong/Saved/Config/Windows/Scalability.ini]
+[2021.07.15-15.17.18:088][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.07.15-15.17.18:088][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.07.15-15.17.18:089][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.07.15-15.17.18:091][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.07.15-15.17.18:092][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.07.15-15.17.18:092][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.07.15-15.17.18:093][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.07.15-15.17.18:093][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.07.15-15.17.18:093][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.07.15-15.17.18:094][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.07.15-15.17.18:094][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.07.15-15.17.18:095][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.07.15-15.17.18:095][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.07.15-15.17.18:095][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.07.15-15.17.18:096][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.07.15-15.17.18:096][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.07.15-15.17.18:096][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.07.15-15.17.18:097][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.07.15-15.17.18:097][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/zonks/Documents/Unreal/Projects/UnrealPong/Saved/Config/Windows/Scalability.ini]
+[2021.07.15-15.17.18:098][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.07.15-15.17.18:098][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.07.15-15.17.18:098][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.07.15-15.17.18:099][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.07.15-15.17.18:099][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.07.15-15.17.18:100][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.07.15-15.17.18:101][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.07.15-15.17.18:101][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.07.15-15.17.18:102][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.07.15-15.17.18:102][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.07.15-15.17.18:102][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.07.15-15.17.18:103][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.07.15-15.17.18:103][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.07.15-15.17.18:104][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.07.15-15.17.18:104][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.07.15-15.17.18:104][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.07.15-15.17.18:105][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.07.15-15.17.18:109][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.07.15-15.17.18:110][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.07.15-15.17.18:111][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.07.15-15.17.18:111][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.07.15-15.17.18:111][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.07.15-15.17.18:112][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.07.15-15.17.18:112][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.07.15-15.17.18:113][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.07.15-15.17.18:113][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.07.15-15.17.18:113][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.07.15-15.17.18:114][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.07.15-15.17.18:114][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.07.15-15.17.18:115][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.07.15-15.17.18:115][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/zonks/Documents/Unreal/Projects/UnrealPong/Saved/Config/Windows/Scalability.ini]
+[2021.07.15-15.17.18:116][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.07.15-15.17.18:116][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.07.15-15.17.18:117][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.07.15-15.17.18:117][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.07.15-15.17.18:118][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.07.15-15.17.18:118][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.07.15-15.17.18:119][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.07.15-15.17.18:119][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.07.15-15.17.18:119][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.07.15-15.17.18:120][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/zonks/Documents/Unreal/Projects/UnrealPong/Saved/Config/Windows/Scalability.ini]
+[2021.07.15-15.17.18:120][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.07.15-15.17.18:121][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.07.15-15.17.18:125][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.07.15-15.17.18:126][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.07.15-15.17.18:126][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.07.15-15.17.18:127][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.07.15-15.17.18:127][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.07.15-15.17.18:127][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.07.15-15.17.18:128][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.07.15-15.17.18:128][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.07.15-15.17.18:128][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.07.15-15.17.18:129][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.07.15-15.17.18:129][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.07.15-15.17.18:130][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.07.15-15.17.18:130][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.07.15-15.17.18:130][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.07.15-15.17.18:131][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.07.15-15.17.18:131][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.07.15-15.17.18:131][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.07.15-15.17.18:132][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.07.15-15.17.18:132][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.07.15-15.17.18:133][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.07.15-15.17.18:133][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.07.15-15.17.18:134][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.07.15-15.17.18:135][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.07.15-15.17.18:135][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.07.15-15.17.18:135][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.07.15-15.17.18:136][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2021.07.15-15.17.18:136][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/zonks/Documents/Unreal/Projects/UnrealPong/Saved/Config/Windows/Scalability.ini]
+[2021.07.15-15.17.18:137][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.07.15-15.17.18:141][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.07.15-15.17.18:141][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/zonks/Documents/Unreal/Projects/UnrealPong/Saved/Config/Windows/Scalability.ini]
+[2021.07.15-15.17.18:142][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.07.15-15.17.18:143][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.07.15-15.17.18:143][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.07.15-15.17.18:143][  0]LogInit: Selected Device Profile: [Windows]
+[2021.07.15-15.17.18:144][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.07.15-15.17.18:144][  0]LogHAL: Display: Platform has ~ 32 GB [34298351616 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.07.15-15.17.18:145][  0]LogInit: Going up to parent DeviceProfile []
+[2021.07.15-15.17.18:145][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/zonks/Documents/Unreal/Projects/UnrealPong/Saved/Config/Windows/Scalability.ini]
+[2021.07.15-15.17.18:145][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.07.15-15.17.18:146][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.07.15-15.17.18:146][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/zonks/Documents/Unreal/Projects/UnrealPong/Saved/Config/Windows/Scalability.ini]
+[2021.07.15-15.17.18:147][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.07.15-15.17.18:147][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/zonks/Documents/Unreal/Projects/UnrealPong/Saved/Config/Windows/Scalability.ini]
+[2021.07.15-15.17.18:147][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.07.15-15.17.18:148][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.07.15-15.17.18:148][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.07.15-15.17.18:148][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.07.15-15.17.18:149][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.07.15-15.17.18:149][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.07.15-15.17.18:150][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.07.15-15.17.18:150][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.07.15-15.17.18:151][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.07.15-15.17.18:151][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.07.15-15.17.18:151][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.07.15-15.17.18:152][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.07.15-15.17.18:152][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.07.15-15.17.18:152][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.07.15-15.17.18:153][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.07.15-15.17.18:157][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.07.15-15.17.18:158][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.07.15-15.17.18:158][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.07.15-15.17.18:159][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/zonks/Documents/Unreal/Projects/UnrealPong/Saved/Config/Windows/Scalability.ini]
+[2021.07.15-15.17.18:159][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.07.15-15.17.18:160][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.07.15-15.17.18:160][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.07.15-15.17.18:161][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.07.15-15.17.18:161][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.07.15-15.17.18:161][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.07.15-15.17.18:162][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.07.15-15.17.18:162][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.07.15-15.17.18:162][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.07.15-15.17.18:163][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.07.15-15.17.18:163][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.07.15-15.17.18:164][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.07.15-15.17.18:164][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.07.15-15.17.18:164][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.07.15-15.17.18:165][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.07.15-15.17.18:165][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.07.15-15.17.18:165][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.07.15-15.17.18:166][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.07.15-15.17.18:166][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.07.15-15.17.18:167][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.07.15-15.17.18:167][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.07.15-15.17.18:168][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.07.15-15.17.18:168][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.07.15-15.17.18:169][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.07.15-15.17.18:173][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.07.15-15.17.18:174][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.07.15-15.17.18:174][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.07.15-15.17.18:175][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.07.15-15.17.18:175][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.07.15-15.17.18:176][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.07.15-15.17.18:176][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/zonks/Documents/Unreal/Projects/UnrealPong/Saved/Config/Windows/Scalability.ini]
+[2021.07.15-15.17.18:176][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.07.15-15.17.18:177][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.07.15-15.17.18:177][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.07.15-15.17.18:178][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.07.15-15.17.18:178][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.07.15-15.17.18:178][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.07.15-15.17.18:179][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.07.15-15.17.18:179][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.07.15-15.17.18:179][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.07.15-15.17.18:180][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/zonks/Documents/Unreal/Projects/UnrealPong/Saved/Config/Windows/Scalability.ini]
+[2021.07.15-15.17.18:180][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.07.15-15.17.18:181][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.07.15-15.17.18:181][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.07.15-15.17.18:181][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.07.15-15.17.18:182][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.07.15-15.17.18:182][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.07.15-15.17.18:183][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.07.15-15.17.18:183][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.07.15-15.17.18:184][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.07.15-15.17.18:185][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.07.15-15.17.18:189][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.07.15-15.17.18:189][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.07.15-15.17.18:190][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.07.15-15.17.18:191][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.07.15-15.17.18:191][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.07.15-15.17.18:192][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.07.15-15.17.18:192][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.07.15-15.17.18:192][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.07.15-15.17.18:193][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.07.15-15.17.18:193][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.07.15-15.17.18:193][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.07.15-15.17.18:194][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.07.15-15.17.18:194][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.07.15-15.17.18:195][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.07.15-15.17.18:195][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.07.15-15.17.18:196][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.07.15-15.17.18:196][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.07.15-15.17.18:196][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2021.07.15-15.17.18:197][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/zonks/Documents/Unreal/Projects/UnrealPong/Saved/Config/Windows/Scalability.ini]
+[2021.07.15-15.17.18:197][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.07.15-15.17.18:197][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.07.15-15.17.18:198][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/zonks/Documents/Unreal/Projects/UnrealPong/Saved/Config/Windows/Scalability.ini]
+[2021.07.15-15.17.18:198][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.07.15-15.17.18:199][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.07.15-15.17.18:199][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.07.15-15.17.18:199][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.07.15-15.17.18:200][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.07.15-15.17.18:200][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.07.15-15.17.18:201][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.07.15-15.17.18:205][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/zonks/Documents/Unreal/Projects/UnrealPong/Saved/Config/Windows/Engine.ini]
+[2021.07.15-15.17.18:206][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/zonks/Documents/Unreal/Projects/UnrealPong/Saved/Config/Windows/Editor.ini]
+[2021.07.15-15.17.18:206][  0]LogInit: Computer: ARGONAUT
+[2021.07.15-15.17.18:207][  0]LogInit: User: zonks
+[2021.07.15-15.17.18:207][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.07.15-15.17.18:207][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.07.15-15.17.18:208][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2021.07.15-15.17.18:208][  0]LogMemory: Platform Memory Stats for Windows
+[2021.07.15-15.17.18:209][  0]LogMemory: Process Physical Memory: 148.41 MB used, 148.41 MB peak
+[2021.07.15-15.17.18:209][  0]LogMemory: Process Virtual Memory: 129.66 MB used, 132.90 MB peak
+[2021.07.15-15.17.18:209][  0]LogMemory: Physical Memory: 16622.76 MB used,  16086.70 MB free, 32709.46 MB total
+[2021.07.15-15.17.18:210][  0]LogMemory: Virtual Memory: 134199888.00 MB used,  17840.23 MB free, 134217728.00 MB total
+[2021.07.15-15.17.18:214][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.07.15-15.17.18:240][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.07.15-15.17.18:240][  0]LogInit: Using OS detected language (en-US).
+[2021.07.15-15.17.18:241][  0]LogInit: Using OS detected locale (en-US).
+[2021.07.15-15.17.18:244][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.07.15-15.17.18:379][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.07.15-15.17.18:418][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.07.15-15.17.18:418][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.07.15-15.17.18:451][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.07.15-15.17.18:451][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2021.07.15-15.17.18:451][  0]LogWindows: EnumDisplayDevices:
+[2021.07.15-15.17.18:452][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2021.07.15-15.17.18:453][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2021.07.15-15.17.18:454][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2021.07.15-15.17.18:455][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2021.07.15-15.17.18:455][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.07.15-15.17.18:455][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2021.07.15-15.17.18:456][  0]LogD3D11RHI:   Driver Version: 471.11 (internal:30.0.14.7111, unified:471.11)
+[2021.07.15-15.17.18:456][  0]LogD3D11RHI:      Driver Date: 6-21-2021
+[2021.07.15-15.17.18:457][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2021.07.15-15.17.18:523][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.07.15-15.17.18:523][  0]LogD3D11RHI: Async texture creation enabled
+[2021.07.15-15.17.18:525][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.07.15-15.17.18:541][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.07.15-15.17.18:562][  0]LogRHI: GeForceNow SDK initialized: 1
+[2021.07.15-15.17.18:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.07.15-15.17.18:753][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.07.15-15.17.18:756][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.07.15-15.17.18:759][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.07.15-15.17.18:760][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.07.15-15.17.18:765][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.07.15-15.17.18:791][  0]LogTextureFormatOodle: Display: Oodle Texture 2.9.0 init RDO Off
+[2021.07.15-15.17.18:812][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2021.07.15-15.17.18:812][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../Projects/UnrealPong/Intermediate/Shaders/WorkingDirectory/12512/).
+[2021.07.15-15.17.18:813][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/zonks/AppData/Local/Temp/UnrealShaderWorkingDir/7068EE2F4870551897322FA3CA6510FD/'.
+[2021.07.15-15.17.18:813][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.07.15-15.17.18:814][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.07.15-15.17.18:814][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.07.15-15.17.19:425][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.07.15-15.17.19:465][  0]LogDerivedDataCache: Loaded boot cache 0.04s 94MB ../../../../Projects/UnrealPong/DerivedDataCache/Boot.ddc.
+[2021.07.15-15.17.19:465][  0]LogDerivedDataCache: Display: Loaded Boot cache: ../../../../Projects/UnrealPong/DerivedDataCache/Boot.ddc
+[2021.07.15-15.17.19:466][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Projects/UnrealPong/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.07.15-15.17.19:467][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.07.15-15.17.19:467][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.07.15-15.17.19:468][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2021.07.15-15.17.19:480][  0]LogDerivedDataCache: Speed tests for ../../../Engine/DerivedDataCache took 0.01 seconds
+[2021.07.15-15.17.19:480][  0]LogDerivedDataCache: Display: Performance to ../../../Engine/DerivedDataCache: Latency=0.02ms. RandomReadSpeed=1674.51MBs, RandomWriteSpeed=104.80MBs. Assigned SpeedClass 'Local'
+[2021.07.15-15.17.19:482][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2021.07.15-15.17.19:482][  0]LogDerivedDataCache: Warning: Shared data cache path (\\epicgames.net\root\DDC-Global-UE4) is unavailable so cache will be disabled.
+[2021.07.15-15.17.19:485][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.07.15-15.17.19:517][  0]LogSlate: Using FreeType 2.10.0
+[2021.07.15-15.17.19:518][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.07.15-15.17.19:520][  0]LogHMD: Failed to enumerate extensions. Please check that you have a valid OpenXR runtime installed.
+[2021.07.15-15.17.19:577][  0]LogInit: Using OS detected language (en-US).
+[2021.07.15-15.17.19:578][  0]LogInit: Using OS detected locale (en-US).
+[2021.07.15-15.17.19:579][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2021.07.15-15.17.19:579][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2021.07.15-15.17.19:580][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2021.07.15-15.17.19:580][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2021.07.15-15.17.19:583][  0]LogTextLocalizationManager: Compacting localization data took   0.00ms
+[2021.07.15-15.17.19:583][  0]LogAssetRegistry: FAssetRegistry took 0.0019 seconds to start up
+[2021.07.15-15.17.19:746][  0]LogPackageLocalizationCache: Processed 27 localized package path(s) for 1 prioritized culture(s) in 0.032234 seconds
+[2021.07.15-15.17.19:804][  0]LogInit: Selected Device Profile: [Windows]
+[2021.07.15-15.17.19:804][  0]LogInit: Active device profile: [0000028019A59500][000002800FB6CBC0 49] Windows
+[2021.07.15-15.17.19:805][  0]LogInit: Profiles: [0000028019A59500][000002800FB6CBC0 49] Windows, [0000028019A32800][00000280156D6D40 49] WindowsNoEditor, [0000028019A5A800][00000280156DAEC0 49] WindowsServer, [0000028019A33900][00000280156DF040 49] WindowsClient, [0000028019A5B900][00000280156E31C0 49] IOS, [0000028019A30B00][00000280156D3300 49] iPadAir, [0000028019A58B00][00000280156E7440 49] iPadAir2, [00000280199D2500][00000280156EF680 49] IPadPro, [00000280199D2600][00000280156EB6C0 49] iPadAir3, [0000028019A33D00][00000280156F7840 49] iPadAir4, [00000280199D3700][00000280156FB9C0 49] iPadMini2, [0000028019A32B00][00000280156FFB40 49] iPadMini3, [00000280199D1F00][00000280104A2140 49] iPadMini4, [0000028019A31A00][00000280104A62C0 49] iPadMini5, [0000028019A0DE00][00000280104AE580 49] iPhone6, [0000028019A0DF00][00000280104AA5C0 49] iPodTouch6, [0000028019A5B500][00000280104B6880 49] iPhone7, [0000028019A5B600][00000280104B28C0 49] iPodTouch7, [0000028019A0ED00][00000280104BAA40 49] iPhone5S, [0000028019A5A200][00000280104BEBC0 49] iPhone6Plus, [0000028019A0F800][00000280104C2D40 49] iPhone6S, [0000028019A5B700][00000280104C6EC0 49] iPhone6SPlus, [0000028019A0EF00][00000280104CB040 49] iPhone7Plus, [0000028019A5AF00][00000280104CF1C0 49] iPhoneSE, [0000028019A0D300][00000280104D3340 49] iPhone8, [0000028019A58D00][00000280104D74C0 49] iPhone8Plus, [0000028019A0CE00][00000280156F3600 49] iPhoneX, [0000028019A5BB00][00000280104DB740 49] iPhoneXS, [0000028019A0CB00][00000280104DF880 49] iPhoneXSMax, [0000028019A5BE00][00000280104E7A00 49] iPhoneXR, [0000028019A0EE00][00000280104EBB80 49] iPhone11, [0000028019A5A900][00000280104EE180 49] iPhone11Pro, [0000028019A32600][00000280104F2300 49] iPhone11ProMax, [0000028019A0F900][00000280104F6480 49] iPhoneSE2, [0000028019A31D00][00000280104FA600 49] iPhone12Mini, [0000028019A0DD00][00000280104FE780 49] iPhone12, [0000028019A31F00][0000028010502900 49] iPhone12Pro, [0000028019A0CF00][0000028010506A80 49] iPhone12ProMax, [0000028019A32400][000002801050AC00 49] iPadPro105, [0000028019A0CD00][000002801050ED80 49] iPadPro129, [0000028019A59300][0000028010512F00 49] iPadPro97, [0000028019A0F600][0000028010517080 49] iPadPro2_129, [0000028019A5AA00][000002801051B200 49] iPad5, [0000028019A0F100][000002801051F380 49] iPad6, [0000028019A5BC00][0000028010523500 49] iPad7, [0000028019A0FA00][0000028010527680 49] iPad8, [0000028019A5A000][00000280104E37C0 49] iPadPro11, [0000028019A0DA00][000002801052B900 49] iPadPro2_11, [0000028019A5B000][000002801052FA40 49] iPadPro3_129, [0000028019A0C400][0000028010537BC0 49] iPadPro4_129, [0000028019A58C00][000002801053A1C0 49] AppleTV, [0000028019A0E000][000002801053E340 49] AppleTV4K, [0000028019A5A500][00000280105424C0 49] TVOS, [0000028019A0E700][0000028010546640 49] Mac, [0000028019A59800][000002801054A7C0 49] MacClient, [0000028019A0E100][000002801054E940 49] MacNoEditor, [0000028019A58200][0000028010552AC0 49] MacServer, [0000028019A0E500][0000028010556C40 49] Linux, [0000028019A58400][000002801055ADC0 49] LinuxAArch64, [0000028019A0D400][000002801055EF40 49] LinuxNoEditor, [0000028019A5A700][00000280105630C0 49] LinuxAArch64NoEditor, [0000028019A0D700][0000028010567240 49] LinuxClient, [0000028019A5A600][000002801056B3C0 49] LinuxAArch64Client, [0000028019A0C800][000002801056F540 49] LinuxServer, [0000028019A5B100][00000280105736C0 49] LinuxAArch64Server, [0000028019A0F200][0000028010577840 49] Android, [0000028019A59100][0000028010533980 49] Android_Low, [0000028019A0FB00][000002801057BAC0 49] Android_Mid, [0000028019A5AD00][000002801057FC00 49] Android_High, [0000028019A0C700][00000280105821C0 49] Android_Default, [0000028019A58F00][000002801058A340 49] Android_Adreno4xx, [0000028019A0EA00][000002801058E4C0 49] Android_Adreno5xx_Low, [0000028019A58A00][0000028010592640 49] Android_Adreno5xx, [0000028019A0C500][00000280105967C0 49] Android_Adreno6xx, [0000028019A5B300][000002801059A940 49] Android_Adreno6xx_Vulkan, [0000028019A0C600][000002801059EAC0 49] Android_Mali_T6xx, [0000028019A5A400][00000280105A2C40 49] Android_Mali_T7xx, [0000028019A0D600][00000280105A6DC0 49] Android_Mali_T8xx, [0000028019A59B00][00000280105AAF40 49] Android_Mali_G71, [0000028019A0CA00][00000280105AF0C0 49] Android_Mali_G72, [0000028019A58700][00000280105B3240 49] Android_Mali_G72_Vulkan, [0000028019A0F000][00000280105B73C0 49] Android_Mali_G76, [0000028019A59F00][00000280105BB540 49] Android_Mali_G76_Vulkan, [0000028019A0E600][00000280105BF6C0 49] Android_Mali_G77, [0000028019A5BD00][00000280105C3840 49] Android_Mali_G77_Vulkan, [0000028019A0C900][00000280105C79C0 49] Android_Mali_G710, [00000280199D2700][0000028010587B00 49] Android_Mali_G710_Vulkan, [0000028019A30900][00000280105CA0C0 49] Android_Vulkan_SM5, [00000280199D1E00][00000280105CE200 49] Android_PowerVR_G6xxx, [0000028019A33100][00000280105D2340 49] Android_PowerVR_GT7xxx, [00000280199D0400][00000280105DA4C0 49] Android_PowerVR_GE8xxx, [0000028019A31200][00000280105DE640 49] Android_PowerVR_GM9xxx, [00000280199D2800][00000280105E27C0 49] Android_PowerVR_GM9xxx_Vulkan, [0000028019A31800][00000280105E6940 49] Android_TegraK1, [00000280199D3D00][00000280105EAAC0 49] Android_Unknown_Vulkan, [0000028019A33B00][00000280105EEC40 49] Lumin, [00000280199D3400][00000280105F2DC0 49] Lumin_Desktop, [0000028019A30800][00000280105F6F40 49] HoloLens, 
+[2021.07.15-15.17.19:836][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.07.15-15.17.19:836][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.07.15-15.17.19:837][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.07.15-15.17.19:838][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.07.15-15.17.19:838][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.07.15-15.17.19:937][  0]LogNetVersion: UnrealPong 1.0.0, NetCL: 0, EngineNetVer: 17, GameNetVer: 0 (Checksum: 900575368)
+[2021.07.15-15.17.20:174][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2021.07.15-15.17.20:249][  0]LogMoviePlayer: Initializing movie player
+[2021.07.15-15.17.20:338][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 1E860C5643050DB25D151FACFA2A23BF | Instance: A622EF694B6B161473A8268D911A0543 (ARGONAUT-12512).
+[2021.07.15-15.17.20:356][  0]LogCollectionManager: Loaded 0 collections in 0.003041 seconds
+[2021.07.15-15.17.20:358][  0]LogFileCache: Scanning file cache for directory 'C:/Users/zonks/Documents/Unreal/Projects/UnrealPong/Saved/Collections/' took 0.00s
+[2021.07.15-15.17.20:358][  0]LogFileCache: Scanning file cache for directory 'C:/Users/zonks/Documents/Unreal/Projects/UnrealPong/Content/Developers/zonks/Collections/' took 0.00s
+[2021.07.15-15.17.20:359][  0]LogFileCache: Scanning file cache for directory 'C:/Users/zonks/Documents/Unreal/Projects/UnrealPong/Content/Collections/' took 0.00s
+[2021.07.15-15.17.20:359][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
+[2021.07.15-15.17.20:436][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Niagara/MenuSeparator.png' error.
+[2021.07.15-15.17.20:437][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Niagara/MenuSeparator.png
+[2021.07.15-15.17.20:437][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Niagara/Common/Selector.png' error.
+[2021.07.15-15.17.20:438][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Niagara/Common/Selector.png
+[2021.07.15-15.17.20:438][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Niagara/Common/Selection.png' error.
+[2021.07.15-15.17.20:439][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Niagara/Common/Selection.png
+[2021.07.15-15.17.20:439][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Niagara/Common/DropZoneIndicator_Above.png' error.
+[2021.07.15-15.17.20:440][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Niagara/Common/DropZoneIndicator_Above.png
+[2021.07.15-15.17.20:440][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Niagara/Common/DropZoneIndicator_Onto.png' error.
+[2021.07.15-15.17.20:441][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Niagara/Common/DropZoneIndicator_Onto.png
+[2021.07.15-15.17.20:441][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Niagara/Common/DropZoneIndicator_Below.png' error.
+[2021.07.15-15.17.20:441][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Niagara/Common/DropZoneIndicator_Below.png
+[2021.07.15-15.17.20:441][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Niagara/Common/RoundedSelection_16x.png' error.
+[2021.07.15-15.17.20:442][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Niagara/Common/RoundedSelection_16x.png
+[2021.07.15-15.17.20:442][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Niagara/Common/FlatButton.png' error.
+[2021.07.15-15.17.20:443][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Niagara/Common/FlatButton.png
+[2021.07.15-15.17.20:443][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
+[2021.07.15-15.17.20:444][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
+[2021.07.15-15.17.20:444][  0]LogPython: Using Python 3.7.7
+[2021.07.15-15.17.20:891][  0]SourceControl: Source control is disabled
+[2021.07.15-15.17.20:892][  0]SourceControl: Source control is disabled
+[2021.07.15-15.17.20:896][  0]SourceControl: Source control is disabled
+[2021.07.15-15.17.20:903][  0]LogUProjectInfo: Found projects:
+[2021.07.15-15.17.20:968][  0]LogOpenImageDenoise: OIDN starting up
+[2021.07.15-15.17.20:985][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.07.15-15.17.20:999][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.07.15-15.17.21:000][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.07.15-15.17.21:053][  0]LogOcInput: OculusInput pre-init called
+[2021.07.15-15.17.21:061][  0]LogUObjectArray: 22157 objects as part of root set at end of initial load.
+[2021.07.15-15.17.21:061][  0]LogUObjectAllocator: 5998528 out of 0 bytes used by permanent object pool.
+[2021.07.15-15.17.21:061][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.07.15-15.17.21:104][  0]LogClass: Display: IntProperty FPongServerData::CurrentPlayers is not initialized properly. Module:UnrealPong File:Public/Core/PongData.h
+[2021.07.15-15.17.21:104][  0]LogClass: Display: 1 Uninitialized script struct members found including 0 object properties
+[2021.07.15-15.17.21:105][  0]LogEngine: Initializing Engine...
+[2021.07.15-15.17.21:106][  0]LogHMD: Failed to enumerate extensions. Please check that you have a valid OpenXR runtime installed.
+[2021.07.15-15.17.21:107][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.07.15-15.17.21:107][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.07.15-15.17.21:109][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.07.15-15.17.21:177][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.07.15-15.17.21:177][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2021.07.15-15.17.21:181][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2021.07.15-15.17.21:182][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2021.07.15-15.17.21:182][  0]LogAudio: Display: Audio Device Manager Initialized
+[2021.07.15-15.17.21:182][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2021.07.15-15.17.21:182][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.15-15.17.21:183][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.15-15.17.21:183][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2021.07.15-15.17.21:184][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2021.07.15-15.17.21:184][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2021.07.15-15.17.21:184][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.15-15.17.21:185][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.15-15.17.21:185][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.15-15.17.21:186][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.07.15-15.17.21:186][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.07.15-15.17.21:186][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.07.15-15.17.21:187][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.15-15.17.21:209][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.15-15.17.21:209][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.07.15-15.17.21:219][  0]LogAudioMixer: Display: Using Audio Device VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)
+[2021.07.15-15.17.21:222][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.15-15.17.21:223][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.15-15.17.21:223][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.15-15.17.21:224][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.15-15.17.21:224][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.15-15.17.21:224][  0]LogAudioMixer: Display: Output buffers initialized: Frames=256, Channels=2, Samples=512
+[2021.07.15-15.17.21:226][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.15-15.17.21:227][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.15-15.17.21:227][  0]LogInit: FAudioDevice initialized.
+[2021.07.15-15.17.21:228][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.07.15-15.17.21:273][  0]LogDerivedDataCache: Saved boot cache 0.04s 94MB ../../../../Projects/UnrealPong/DerivedDataCache/Boot.ddc.
+[2021.07.15-15.17.21:274][  0]LogInit: Texture streaming: Enabled
+[2021.07.15-15.17.21:339][  0]LogUnrealPong: Found subsystem NULL
+[2021.07.15-15.17.21:339][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2021.07.15-15.17.21:340][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.15-15.17.21:341][  0]LogInit: Display: Game Engine Initialized.
+[2021.07.15-15.17.21:341][  0]LogNiagaraEditor: GEditor isn't valid! Particle reset commands will not work for Niagara components!
+[2021.07.15-15.17.21:373][  0]LogEncoderNVENC: Created D3D11 device for NVENC on 'NVIDIA GeForce GTX 1080'.
+[2021.07.15-15.17.21:463][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Niagara/MenuSeparator.png' error.
+[2021.07.15-15.17.21:465][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Niagara/MenuSeparator.png
+[2021.07.15-15.17.21:465][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Niagara/Common/Selector.png' error.
+[2021.07.15-15.17.21:466][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Niagara/Common/Selector.png
+[2021.07.15-15.17.21:466][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Niagara/Common/Selection.png' error.
+[2021.07.15-15.17.21:467][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Niagara/Common/Selection.png
+[2021.07.15-15.17.21:467][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Niagara/Common/DropZoneIndicator_Onto.png' error.
+[2021.07.15-15.17.21:467][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Niagara/Common/DropZoneIndicator_Onto.png
+[2021.07.15-15.17.21:467][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Niagara/Common/DropZoneIndicator_Below.png' error.
+[2021.07.15-15.17.21:468][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Niagara/Common/DropZoneIndicator_Below.png
+[2021.07.15-15.17.21:468][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Niagara/Common/RoundedSelection_16x.png' error.
+[2021.07.15-15.17.21:469][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Niagara/Common/RoundedSelection_16x.png
+[2021.07.15-15.17.21:469][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Niagara/Common/DropZoneIndicator_Above.png' error.
+[2021.07.15-15.17.21:470][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Niagara/Common/DropZoneIndicator_Above.png
+[2021.07.15-15.17.21:470][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Niagara/Common/FlatButton.png' error.
+[2021.07.15-15.17.21:471][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Niagara/Common/FlatButton.png
+[2021.07.15-15.17.21:471][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
+[2021.07.15-15.17.21:472][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
+[2021.07.15-15.17.21:472][  0]LogInit: Display: Starting Game.
+[2021.07.15-15.17.21:472][  0]LogNet: Browse: /Game/Maps/MainMenu?Name=Player
+[2021.07.15-15.17.21:473][  0]LogLoad: LoadMap: /Game/Maps/MainMenu?Name=Player
+[2021.07.15-15.17.21:476][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2021.07.15-15.17.21:477][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.07.15-15.17.21:477][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.15-15.17.21:482][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.15-15.17.21:484][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2021.07.15-15.17.21:488][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2021.07.15-15.17.21:494][  0]LogAIModule: Creating AISystem for world MainMenu
+[2021.07.15-15.17.21:494][  0]LogLoad: Game class is 'GameModeBase'
+[2021.07.15-15.17.21:495][  0]LogWorld: Bringing World /Game/Maps/MainMenu.MainMenu up for play (max tick rate 0) at 2021.07.15-09.17.21
+[2021.07.15-15.17.21:495][  0]LogWorld: Bringing up level for play took: 0.000300
+[2021.07.15-15.17.21:496][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.07.15-15.17.21:497][  0]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2021.07.15-15.17.21:497][  0]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2021.07.15-15.17.21:498][  0]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2021.07.15-15.17.21:498][  0]LogLoad: Took 0.025674 seconds to LoadMap(/Game/Maps/MainMenu)
+[2021.07.15-15.17.21:615][  0]LogSlate: Took 0.000121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.07.15-15.17.21:676][  0]LogRenderer: Reallocating scene render targets to support 2560x1440 Format 10 NumSamples 1 (Frame:1).
+[2021.07.15-15.17.21:676][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2021.07.15-15.17.21:678][  0]LogLoad: (Engine Initialization) Total time: 4.91 seconds
+[2021.07.15-15.17.21:678][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.07.15-15.17.21:681][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.07.15-15.17.21:683][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.15-15.17.21:701][  1]LogSlate: Took 0.000102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.07.15-15.17.22:440][194]LogUnrealPong: Hosting Pong
+[2021.07.15-15.17.22:440][194]LogGameMode: ProcessServerTravel: /Game/Maps/Game?listen
+[2021.07.15-15.17.22:442][194]LogEngine: Server switch level: /Game/Maps/Game?Name=Player?listen
+[2021.07.15-15.17.22:442][194]LogNet: Browse: /Game/Maps/Game?Name=Player?listen
+[2021.07.15-15.17.22:443][194]LogLoad: LoadMap: /Game/Maps/Game?Name=Player?listen
+[2021.07.15-15.17.22:443][194]LogWorld: BeginTearingDown for /Game/Maps/MainMenu
+[2021.07.15-15.17.22:444][194]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.07.15-15.17.22:444][194]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.15-15.17.22:464][194]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.15-15.17.22:465][194]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2021.07.15-15.17.22:471][194]LogAudio: Display: Audio Device (ID: 1) registered with world 'Game'.
+[2021.07.15-15.17.22:472][194]LogAIModule: Creating AISystem for world Game
+[2021.07.15-15.17.22:475][194]LogLoad: Game class is 'BP_PongGameMode_C'
+[2021.07.15-15.17.22:475][194]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2021.07.15-15.17.22:476][194]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2021.07.15-15.17.22:476][194]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2021.07.15-15.17.22:477][194]LogNet: Created socket for bind address: 0.0.0.0 on port 7777
+[2021.07.15-15.17.22:477][194]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.07.15-15.17.22:477][194]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2021.07.15-15.17.22:478][194]LogWorld: Bringing World /Game/Maps/Game.Game up for play (max tick rate 0) at 2021.07.15-09.17.22
+[2021.07.15-15.17.22:478][194]LogWorld: Bringing up level for play took: 0.000482
+[2021.07.15-15.17.22:479][194]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.07.15-15.17.22:480][194]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.07.15-15.17.22:480][194]LogOutputDevice: Warning: 
+
+Script Stack (1 frames):
+PongController.SetupGameUI
+
+[2021.07.15-15.17.22:764][194]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.283 s
+[2021.07.15-15.17.22:764][194]LogOutputDevice: Error: === Handled ensure: ===
+[2021.07.15-15.17.22:766][194]LogOutputDevice: Error: 
+[2021.07.15-15.17.22:766][194]LogOutputDevice: Error: Ensure condition failed: GameHUDClass [File:C:\Users\zonks\Documents\Unreal\Projects\UnrealPong\Source\UnrealPong\Private\Core\PongGameInstance.cpp] [Line: 80]
+[2021.07.15-15.17.22:766][194]LogOutputDevice: Error: 
+[2021.07.15-15.17.22:767][194]LogOutputDevice: Error: Stack: 
+[2021.07.15-15.17.22:767][194]LogOutputDevice: Error: [Callstack] 0x00007ffcb5177638 UE4Editor-UnrealPong.dll!<lambda_0b08a1f601bcc83e7336648c0b3b9db1>::operator()() [C:\Users\zonks\Documents\Unreal\Projects\UnrealPong\Source\UnrealPong\Private\Core\PongGameInstance.cpp:80]
+[2021.07.15-15.17.22:768][194]LogOutputDevice: Error: [Callstack] 0x00007ffcb51689bf UE4Editor-UnrealPong.dll!UPongGameInstance::LoadGameHUDWidget() [C:\Users\zonks\Documents\Unreal\Projects\UnrealPong\Source\UnrealPong\Private\Core\PongGameInstance.cpp:91]
+[2021.07.15-15.17.22:768][194]LogOutputDevice: Error: [Callstack] 0x00007ffceedc1994 UE4Editor-CoreUObject.dll!UFunction::Invoke() [C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:5679]
+[2021.07.15-15.17.22:768][194]LogOutputDevice: Error: [Callstack] 0x00007ffcef0a28e3 UE4Editor-CoreUObject.dll!UObject::ProcessEvent() [C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:2018]
+[2021.07.15-15.17.22:769][194]LogOutputDevice: Error: [Callstack] 0x00007ffcd25c843a UE4Editor-Engine.dll!AActor::ProcessEvent() [C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Engine\Private\Actor.cpp:863]
+[2021.07.15-15.17.22:769][194]LogOutputDevice: Error: [Callstack] 0x00007ffcb5164421 UE4Editor-UnrealPong.dll!APongController::BeginPlay() [C:\Users\zonks\Documents\Unreal\Projects\UnrealPong\Source\UnrealPong\Private\Core\PongController.cpp:41]
+[2021.07.15-15.17.22:770][194]LogOutputDevice: Error: [Callstack] 0x00007ffcd259f9cf UE4Editor-Engine.dll!AActor::DispatchBeginPlay() [C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Engine\Private\Actor.cpp:3519]
+[2021.07.15-15.17.22:770][194]LogOutputDevice: Error: [Callstack] 0x00007ffcd39a220e UE4Editor-Engine.dll!AWorldSettings::NotifyBeginPlay() [C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Engine\Private\WorldSettings.cpp:247]
+[2021.07.15-15.17.22:771][194]LogOutputDevice: Error: [Callstack] 0x00007ffcd2ce5d71 UE4Editor-Engine.dll!AGameStateBase::HandleBeginPlay() [C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Engine\Private\GameStateBase.cpp:205]
+[2021.07.15-15.17.22:771][194]LogOutputDevice: Error: [Callstack] 0x00007ffcd394634e UE4Editor-Engine.dll!UWorld::BeginPlay() [C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Engine\Private\World.cpp:4416]
+[2021.07.15-15.17.22:772][194]LogOutputDevice: Error: [Callstack] 0x00007ffcd3873d91 UE4Editor-Engine.dll!UEngine::LoadMap() [C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Engine\Private\UnrealEngine.cpp:13264]
+[2021.07.15-15.17.22:772][194]LogOutputDevice: Error: [Callstack] 0x00007ffcd381f992 UE4Editor-Engine.dll!UEngine::Browse() [C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Engine\Private\UnrealEngine.cpp:12463]
+[2021.07.15-15.17.22:772][194]LogOutputDevice: Error: [Callstack] 0x00007ffcd388f3ea UE4Editor-Engine.dll!UEngine::TickWorldTravel() [C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Engine\Private\UnrealEngine.cpp:12626]
+[2021.07.15-15.17.22:773][194]LogOutputDevice: Error: [Callstack] 0x00007ffcd2ca8604 UE4Editor-Engine.dll!UGameEngine::Tick() [C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Engine\Private\GameEngine.cpp:1812]
+[2021.07.15-15.17.22:773][194]LogOutputDevice: Error: [Callstack] 0x00007ff6c8c383a9 UE4Editor.exe!FEngineLoop::Tick() [C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Launch\Private\LaunchEngineLoop.cpp:4922]
+[2021.07.15-15.17.22:774][194]LogOutputDevice: Error: [Callstack] 0x00007ff6c8c50aec UE4Editor.exe!GuardedMain() [C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Launch\Private\Launch.cpp:178]
+[2021.07.15-15.17.22:774][194]LogOutputDevice: Error: [Callstack] 0x00007ff6c8c50bda UE4Editor.exe!GuardedMainWrapper() [C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:137]
+[2021.07.15-15.17.22:775][194]LogOutputDevice: Error: [Callstack] 0x00007ff6c8c53c2d UE4Editor.exe!LaunchWindowsStartup() [C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:273]
+[2021.07.15-15.17.22:775][194]LogOutputDevice: Error: [Callstack] 0x00007ff6c8c65314 UE4Editor.exe!WinMain() [C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:320]
+[2021.07.15-15.17.22:776][194]LogOutputDevice: Error: [Callstack] 0x00007ff6c8c67ea6 UE4Editor.exe!__scrt_common_main_seh() [d:\agent\_work\4\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+[2021.07.15-15.17.22:776][194]LogOutputDevice: Error: [Callstack] 0x00007ffd3f577034 KERNEL32.DLL!UnknownFunction []
+[2021.07.15-15.17.22:777][194]LogOutputDevice: Error: [Callstack] 0x00007ffd41542651 ntdll.dll!UnknownFunction []
+[2021.07.15-15.17.22:777][194]LogOutputDevice: Error: 

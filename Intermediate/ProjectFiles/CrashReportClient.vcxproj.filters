@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\..\..\Engine\Engine\Source\Programs\CrashReportClient\CrashReportClient.Target.cs" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{01634C22-E4CA-476F-A71A-0FDC21C150D9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\Engine\Engine\Programs\CrashReportClient\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\..\..\Engine\Engine\Source\Programs\CrashReportClient\CrashReportClient.Build.cs" />
+    <None Include="..\..\..\..\Engine\Engine\Source\Programs\CrashReportClient\CrashReportClientEditor.Build.cs" />
+    <Filter Include="Private">
+      <UniqueIdentifier>{055C2392-BB2D-49F9-A802-F8DC5B9151A2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Source\Programs\CrashReportClient\Private\CrashReportClient.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Source\Programs\CrashReportClient\Private\CrashReportClient.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Source\Programs\CrashReportClient\Private\CrashReportClientApp.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Source\Programs\CrashReportClient\Private\CrashReportClientDefines.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Source\Programs\CrashReportClient\Private\CrashReportClientStyle.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Source\Programs\CrashReportClient\Private\CrashReportClientStyle.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Source\Programs\CrashReportClient\Private\DiagnosticLogger.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Source\Programs\CrashReportClient\Private\DiagnosticLogger.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Source\Programs\CrashReportClient\Private\MainLoopTiming.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Source\Programs\CrashReportClient\Private\MainLoopTiming.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Source\Programs\CrashReportClient\Private\RecoveryService.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Source\Programs\CrashReportClient\Private\RecoveryService.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Source\Programs\CrashReportClient\Private\SCrashReportClient.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Source\Programs\CrashReportClient\Private\SCrashReportClient.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <Filter Include="Private\Linux">
+      <UniqueIdentifier>{173267DA-89CB-4F31-BDE7-F349948ED53B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Source\Programs\CrashReportClient\Private\Linux\CrashReportClientMainLinux.cpp">
+      <Filter>Private\Linux</Filter>
+    </ClCompile>
+    <Filter Include="Private\Mac">
+      <UniqueIdentifier>{21888AEA-D589-4D4D-B798-081C758F923B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Source\Programs\CrashReportClient\Private\Mac\CrashReportClientMainMac.cpp">
+      <Filter>Private\Mac</Filter>
+    </ClCompile>
+    <Filter Include="Private\Windows">
+      <UniqueIdentifier>{5B5BD9D2-3940-4538-B17D-AB690EFCED5C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Source\Programs\CrashReportClient\Private\Windows\CrashReportClientMainWindows.cpp">
+      <Filter>Private\Windows</Filter>
+    </ClCompile>
+    <Filter Include="Public">
+      <UniqueIdentifier>{1ED705DF-CB23-4F15-8122-FE0C86A2BA6E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Source\Programs\CrashReportClient\Public\CrashReportClientApp.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{1E04437E-9A5C-4B20-ABB6-C8E57587047D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Mac">
+      <UniqueIdentifier>{5C775BFB-E09D-4790-9CCF-055F97FCBE68}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\Engine\Engine\Source\Programs\CrashReportClient\Resources\Mac\Info.plist">
+      <Filter>Resources\Mac</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\Solaris\uLangTests\uLangRuntime_Test\uLangRuntime_Test.Target.cs" />
+    <None Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\Solaris\uLangTests\uLangRuntime_Test\CMakeLists.txt" />
+    <None Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\Solaris\uLangTests\uLangRuntime_Test\uLangRuntime_Test.Build.cs" />
+    <Filter Include="Private">
+      <UniqueIdentifier>{CE26703F-645E-42C8-8C83-B53E5F9A1DA6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\Solaris\uLangTests\uLangRuntime_Test\Private\uLangRuntime_Test.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <Filter Include="Private\uLang">
+      <UniqueIdentifier>{719E3D3C-335C-4F53-BE0E-E05B1B4118C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\uLang\Testing">
+      <UniqueIdentifier>{FD1D7ECB-967D-413F-B1A5-EFC537708656}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\Solaris\uLangTests\uLangRuntime_Test\Private\uLang\Testing\PLACEHOLDER.md">
+      <Filter>Private\uLang\Testing</Filter>
+    </None>
+  </ItemGroup>
+</Project>

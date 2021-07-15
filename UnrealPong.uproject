@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{BE7A7560-4515-D28D-075A-E8AC1688E7BB}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "UnrealPong",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"UMG"
+			]
+		}
+	],
+	"TargetPlatforms": [
+		"Android",
+		"IOS",
+		"Linux",
+		"Mac",
+		"Windows"
+	]
+}

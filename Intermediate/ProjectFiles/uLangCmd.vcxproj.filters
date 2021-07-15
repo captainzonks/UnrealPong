@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\Solaris\uLangTests\uLangCmd\uLangCmd.Target.cs" />
+    <None Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\Solaris\uLangTests\uLangCmd\.editorconfig" />
+    <None Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\Solaris\uLangTests\uLangCmd\CMakeLists.txt" />
+    <None Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\Solaris\uLangTests\uLangCmd\uLangCmd.Build.cs" />
+    <Filter Include="Private">
+      <UniqueIdentifier>{4392DDD2-3945-4855-883D-BAD7359C899F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\Solaris\uLangTests\uLangCmd\Private\uLangCmd.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

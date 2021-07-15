@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\LiveLinkProviderSample\Source\LiveLinkProviderSample.Target.cs" />
+    <None Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\LiveLinkProviderSample\Source\LiveLinkProviderSample.Build.cs" />
+    <Filter Include="Private">
+      <UniqueIdentifier>{2519E2D4-4311-49E3-A3C7-86685A1E75E8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\LiveLinkProviderSample\Source\Private\LiveLinkProviderSample.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\LiveLinkProviderSample\Source\Private\LiveLinkProviderSample.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\LiveLinkProviderSample\Source\Private\LiveLinkProviderSampleLoop.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\LiveLinkProviderSample\Source\Private\LiveLinkProviderSampleLoop.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,514 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Invalid|Win32">
+      <Configuration>Invalid</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Invalid|x64">
+      <Configuration>Invalid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|Win32">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|x64">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug_Program|Win32">
+      <Configuration>Mac_Debug_Program</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug_Program|x64">
+      <Configuration>Mac_Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Program|Win32">
+      <Configuration>DebugGame_Program</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Program|x64">
+      <Configuration>DebugGame_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame_Program|Win32">
+      <Configuration>Mac_DebugGame_Program</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame_Program|x64">
+      <Configuration>Mac_DebugGame_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|Win32">
+      <Configuration>Development_Program</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|x64">
+      <Configuration>Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development_Program|Win32">
+      <Configuration>Mac_Development_Program</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development_Program|x64">
+      <Configuration>Mac_Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|Win32">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|x64">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Shipping_Program|Win32">
+      <Configuration>Mac_Shipping_Program</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Shipping_Program|x64">
+      <Configuration>Mac_Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Program|Win32">
+      <Configuration>Test_Program</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Program|x64">
+      <Configuration>Test_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Test_Program|Win32">
+      <Configuration>Mac_Test_Program</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Test_Program|x64">
+      <Configuration>Mac_Test_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E77D553E-17B9-4087-AD35-2892F62C5809}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>PlanarCutTest</RootNamespace>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+    <MinimumVisualStudioVersion>16.0</MinimumVisualStudioVersion>
+    <NMakeUseOemCodePage>true</NMakeUseOemCodePage>
+    <TargetRuntime>Native</TargetRuntime>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectCapability Include="MLProject" />
+    <PropertyPageSchema Include="$(LOCALAPPDATA)\Microsoft\VisualStudio\MagicLeap\debugger.xaml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Program|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Program|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|Win32'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat PlanarCutTest Win32 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat PlanarCutTest Win32 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat PlanarCutTest Win32 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Users\zonks\Documents\Unreal\Engine\Engine\Restricted\NotForLicensees\Binaries\Win32\NotForLicensees\PlanarCutTest-Win32-Debug.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat PlanarCutTest Win64 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat PlanarCutTest Win64 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat PlanarCutTest Win64 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Users\zonks\Documents\Unreal\Engine\Engine\Restricted\NotForLicensees\Binaries\Win64\NotForLicensees\PlanarCutTest-Win64-Debug.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat PlanarCutTest Mac Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat PlanarCutTest Mac Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat PlanarCutTest Mac Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Users\zonks\Documents\Unreal\Engine\Engine\Restricted\NotForLicensees\Binaries\Mac\NotForLicensees\PlanarCutTest-Mac-Debug</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat PlanarCutTest Win32 DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat PlanarCutTest Win32 DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat PlanarCutTest Win32 DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Users\zonks\Documents\Unreal\Engine\Engine\Restricted\NotForLicensees\Binaries\Win32\NotForLicensees\PlanarCutTest-Win32-DebugGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat PlanarCutTest Win64 DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat PlanarCutTest Win64 DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat PlanarCutTest Win64 DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Users\zonks\Documents\Unreal\Engine\Engine\Restricted\NotForLicensees\Binaries\Win64\NotForLicensees\PlanarCutTest-Win64-DebugGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Program|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Program|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat PlanarCutTest Mac DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat PlanarCutTest Mac DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat PlanarCutTest Mac DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Users\zonks\Documents\Unreal\Engine\Engine\Restricted\NotForLicensees\Binaries\Mac\NotForLicensees\PlanarCutTest-Mac-DebugGame</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat PlanarCutTest Win32 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat PlanarCutTest Win32 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat PlanarCutTest Win32 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Users\zonks\Documents\Unreal\Engine\Engine\Restricted\NotForLicensees\Binaries\Win32\NotForLicensees\PlanarCutTest.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat PlanarCutTest Win64 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat PlanarCutTest Win64 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat PlanarCutTest Win64 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Users\zonks\Documents\Unreal\Engine\Engine\Restricted\NotForLicensees\Binaries\Win64\NotForLicensees\PlanarCutTest.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat PlanarCutTest Mac Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat PlanarCutTest Mac Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat PlanarCutTest Mac Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Users\zonks\Documents\Unreal\Engine\Engine\Restricted\NotForLicensees\Binaries\Mac\NotForLicensees\PlanarCutTest</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat PlanarCutTest Win32 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat PlanarCutTest Win32 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat PlanarCutTest Win32 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Users\zonks\Documents\Unreal\Engine\Engine\Restricted\NotForLicensees\Binaries\Win32\NotForLicensees\PlanarCutTest-Win32-Shipping.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat PlanarCutTest Win64 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat PlanarCutTest Win64 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat PlanarCutTest Win64 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Users\zonks\Documents\Unreal\Engine\Engine\Restricted\NotForLicensees\Binaries\Win64\NotForLicensees\PlanarCutTest-Win64-Shipping.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat PlanarCutTest Mac Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat PlanarCutTest Mac Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat PlanarCutTest Mac Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Users\zonks\Documents\Unreal\Engine\Engine\Restricted\NotForLicensees\Binaries\Mac\NotForLicensees\PlanarCutTest-Mac-Shipping</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat PlanarCutTest Win32 Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat PlanarCutTest Win32 Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat PlanarCutTest Win32 Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Users\zonks\Documents\Unreal\Engine\Engine\Restricted\NotForLicensees\Binaries\Win32\NotForLicensees\PlanarCutTest-Win32-Test.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat PlanarCutTest Win64 Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat PlanarCutTest Win64 Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat PlanarCutTest Win64 Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Users\zonks\Documents\Unreal\Engine\Engine\Restricted\NotForLicensees\Binaries\Win64\NotForLicensees\PlanarCutTest-Win64-Test.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Program|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Program|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Build.bat PlanarCutTest Mac Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Rebuild.bat PlanarCutTest Mac Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Users\zonks\Documents\Unreal\Engine\Engine\Build\BatchFiles\Clean.bat PlanarCutTest Mac Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Users\zonks\Documents\Unreal\Engine\Engine\Restricted\NotForLicensees\Binaries\Mac\NotForLicensees\PlanarCutTest-Mac-Test</NMakeOutput>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath>$(IncludePath);C:\Users\zonks\Documents\Unreal\Engine\Engine\Source;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Launch\Private;C:\Users\zonks\Documents\Unreal\Engine\Engine\Restricted\NotForLicensees\Source\Programs\PlanarCutTest\Private;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\ApplicationCore;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\ApplicationCore\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\Core;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\TraceLog\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Core\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\TraceLog;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\RHI;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\RHI\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\Projects;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Projects\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\Json;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Json\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\Voronoi;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Experimental;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Experimental\Voronoi\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\CoreUObject;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\CoreUObject\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\PlanarCut;C:\Users\zonks\Documents\Unreal\Engine\Engine\Plugins\Experimental\PlanarCutPlugin\Source;C:\Users\zonks\Documents\Unreal\Engine\Engine\Plugins\Experimental\PlanarCutPlugin\Source\PlanarCut\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\Engine;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Engine\Classes;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Engine\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\NetCore;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Net;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Net\Core\Classes;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Net\Core\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\SlateCore;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\SlateCore\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\InputCore;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\InputCore\Classes;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\InputCore\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\Slate;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Slate\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\ImageWrapper;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\ImageWrapper\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\Messaging;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Messaging\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\MessagingCommon;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\MessagingCommon\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\RenderCore;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\RenderCore\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\AnalyticsET;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Analytics;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Analytics\AnalyticsET\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\Analytics;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Analytics\Analytics\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\Sockets;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Sockets\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\NetCommon;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Net\Common\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\AssetRegistry;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\AssetRegistry\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\EngineMessages;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\EngineMessages\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\EngineSettings;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\EngineSettings\Classes;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\EngineSettings\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\SynthBenchmark;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\SynthBenchmark\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\Renderer;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Renderer\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\GameplayTags;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\GameplayTags\Classes;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\GameplayTags\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\DeveloperSettings;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\DeveloperSettings\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\PacketHandler;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\PacketHandlers;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\PacketHandlers\PacketHandler\Classes;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\PacketHandlers\PacketHandler\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\ReliabilityHandlerComponent;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\AudioPlatformConfiguration;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\AudioPlatformConfiguration\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\MeshDescription;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\MeshDescription\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\StaticMeshDescription;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\StaticMeshDescription\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\PakFile;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\PakFile\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\RSA;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\RSA\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\NetworkReplayStreaming;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\NetworkReplayStreaming;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\PhysicsCore;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\PhysicsCore\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\Chaos;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Experimental\Chaos\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\ChaosCore;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Experimental\ChaosCore\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\Intel;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\SignalProcessing;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\SignalProcessing\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\AudioExtensions;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\AudioExtensions\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\AudioMixerCore;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\AudioMixerCore\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\PropertyAccess;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\PropertyAccess\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\ClothingSystemRuntimeInterface;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\AudioMixer;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\AudioMixer\Classes;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\AudioMixer\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\TargetPlatform;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Developer;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Developer\TargetPlatform\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\AnimationCore;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\AnimationCore\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\GeometricObjects;C:\Users\zonks\Documents\Unreal\Engine\Engine\Plugins\Experimental\GeometryProcessing\Source;C:\Users\zonks\Documents\Unreal\Engine\Engine\Plugins\Experimental\GeometryProcessing\Source\GeometricObjects\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\MeshUtilitiesCommon;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\MeshUtilitiesCommon\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\DynamicMesh;C:\Users\zonks\Documents\Unreal\Engine\Engine\Plugins\Experimental\GeometryProcessing\Source\DynamicMesh\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\GeometryAlgorithms;C:\Users\zonks\Documents\Unreal\Engine\Engine\Plugins\Experimental\GeometryProcessing\Source\GeometryAlgorithms\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Inc\PlanarCutTest;C:\Users\zonks\Documents\Unreal\Engine\Engine\Restricted\NotForLicensees\Source\Programs;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\Runtime\Launch\Public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Restricted\NotForLicensees\Source\Programs\PlanarCutTest\Public;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt;;</IncludePath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <AdditionalOptions>/std:c++14</AdditionalOptions>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\PlanarCutTest\PlanarCutTest.Target.cs"/>
+    <None Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\PlanarCutTest\PlanarCutTest.Build.cs"/>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\PlanarCutTest\Private\PlanarCutTest.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\GoogleTest\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\Users\zonks\Documents\Unreal\Engine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Development\PlanarCutTest\Definitions.PlanarCutTest.h;C:\Users\zonks\Documents\Unreal\Engine\Engine\Intermediate\Build\Win64\PlanarCutTest\Development\Core\SharedPCH.Core.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\PlanarCutTest\Public\PlanarCutTest.h"/>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\PlanarCutTest\Resource\CylinderGeometry.h"/>
+  </ItemGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <CleanDependsOn> $(CleanDependsOn); </CleanDependsOn>
+    <CppCleanDependsOn></CppCleanDependsOn>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

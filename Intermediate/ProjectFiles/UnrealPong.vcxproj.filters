@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\UnrealPong.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{1E2BFE8E-D2B6-4CF8-B7D4-39D796741910}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UnrealPong.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\UnrealPongEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\launch_lan_demo.txt" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{0FA3CE3B-3763-4547-8F92-ECAA5A39BD6D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Platforms">
+      <UniqueIdentifier>{9D001980-23E6-4127-8584-D8208DCA33F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\Android">
+      <UniqueIdentifier>{84882671-72B7-4F7B-B7D5-3A62E8AE995D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\Android\Config">
+      <UniqueIdentifier>{02BFF765-335A-4796-9BAA-E277ED18FCDB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\Android\Config\AndroidEngine.ini">
+      <Filter>Platforms\Android\Config</Filter>
+    </None>
+    <Filter Include="Platforms\IOS">
+      <UniqueIdentifier>{4345089C-8337-4F1A-8FC4-715FB62F7319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\IOS\Config">
+      <UniqueIdentifier>{12F23845-292E-473A-8581-0FDCD6258EB5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\IOS\Config\IOSEngine.ini">
+      <Filter>Platforms\IOS\Config</Filter>
+    </None>
+    <Filter Include="Platforms\Linux">
+      <UniqueIdentifier>{BAFB6177-F7FB-4B00-8F55-239F64939344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\Linux\Config">
+      <UniqueIdentifier>{9501D03D-D371-4AF2-96D1-2D34A41190FF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\Linux\Config\LinuxEngine.ini">
+      <Filter>Platforms\Linux\Config</Filter>
+    </None>
+    <Filter Include="Platforms\Mac">
+      <UniqueIdentifier>{FFA59D29-D76E-47DE-9514-080DC29B4F49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\Mac\Config">
+      <UniqueIdentifier>{8AD9089A-1977-4F48-8403-B76587F65665}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\Mac\Config\MacEngine.ini">
+      <Filter>Platforms\Mac\Config</Filter>
+    </None>
+    <Filter Include="Platforms\Windows">
+      <UniqueIdentifier>{D2224772-94E3-4A05-87C0-DF14F6DB5969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\Windows\Config">
+      <UniqueIdentifier>{B3A96568-2306-4FB0-9224-CA7A82125919}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\Windows\Config\WindowsEngine.ini">
+      <Filter>Platforms\Windows\Config</Filter>
+    </None>
+    <Filter Include="Source\UnrealPong">
+      <UniqueIdentifier>{B4873CFB-317C-48EC-93FF-573DD2D6283F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UnrealPong\UnrealPong.Build.cs">
+      <Filter>Source\UnrealPong</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\UnrealPong\UnrealPong.cpp">
+      <Filter>Source\UnrealPong</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealPong\UnrealPong.h">
+      <Filter>Source\UnrealPong</Filter>
+    </ClInclude>
+    <Filter Include="Source\UnrealPong\Private">
+      <UniqueIdentifier>{29D7DEF5-9D22-46E8-BC96-25DBD1931CD6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UnrealPong\Private\Actors">
+      <UniqueIdentifier>{1B2A68A0-EE22-4652-8013-38424A0E83D8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\UnrealPong\Private\Actors\PongBall.cpp">
+      <Filter>Source\UnrealPong\Private\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealPong\Private\Actors\PongGoal.cpp">
+      <Filter>Source\UnrealPong\Private\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealPong\Private\Actors\PongWall.cpp">
+      <Filter>Source\UnrealPong\Private\Actors</Filter>
+    </ClCompile>
+    <Filter Include="Source\UnrealPong\Private\Core">
+      <UniqueIdentifier>{5467DECA-3EFD-4FCB-8063-4422E28478E7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\UnrealPong\Private\Core\PongController.cpp">
+      <Filter>Source\UnrealPong\Private\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealPong\Private\Core\PongGameInstance.cpp">
+      <Filter>Source\UnrealPong\Private\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealPong\Private\Core\PongGameMode.cpp">
+      <Filter>Source\UnrealPong\Private\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealPong\Private\Core\PongGameState.cpp">
+      <Filter>Source\UnrealPong\Private\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealPong\Private\Core\PongPlayer.cpp">
+      <Filter>Source\UnrealPong\Private\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealPong\Private\Core\PongPlayerState.cpp">
+      <Filter>Source\UnrealPong\Private\Core</Filter>
+    </ClCompile>
+    <Filter Include="Source\UnrealPong\Private\UI">
+      <UniqueIdentifier>{7C3C999E-2A5D-4468-ADD2-21C8F50300C2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\UnrealPong\Private\UI\PongGameHUD.cpp">
+      <Filter>Source\UnrealPong\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealPong\Private\UI\PongInGameMenu.cpp">
+      <Filter>Source\UnrealPong\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealPong\Private\UI\PongMainMenu.cpp">
+      <Filter>Source\UnrealPong\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealPong\Private\UI\PongMenuWidget.cpp">
+      <Filter>Source\UnrealPong\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealPong\Private\UI\PongServerRow.cpp">
+      <Filter>Source\UnrealPong\Private\UI</Filter>
+    </ClCompile>
+    <Filter Include="Source\UnrealPong\Public">
+      <UniqueIdentifier>{D85F87A8-3962-4663-A718-91AA9418B47B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UnrealPong\Public\Actors">
+      <UniqueIdentifier>{CB2574F6-0E0D-44E7-9745-7E1DE66BF600}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\UnrealPong\Public\Actors\PongBall.h">
+      <Filter>Source\UnrealPong\Public\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealPong\Public\Actors\PongGoal.h">
+      <Filter>Source\UnrealPong\Public\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealPong\Public\Actors\PongWall.h">
+      <Filter>Source\UnrealPong\Public\Actors</Filter>
+    </ClInclude>
+    <Filter Include="Source\UnrealPong\Public\Core">
+      <UniqueIdentifier>{A12C58C0-2110-4CE6-9201-974292FAE218}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\UnrealPong\Public\Core\PongController.h">
+      <Filter>Source\UnrealPong\Public\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealPong\Public\Core\PongData.h">
+      <Filter>Source\UnrealPong\Public\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealPong\Public\Core\PongGameInstance.h">
+      <Filter>Source\UnrealPong\Public\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealPong\Public\Core\PongGameMode.h">
+      <Filter>Source\UnrealPong\Public\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealPong\Public\Core\PongGameState.h">
+      <Filter>Source\UnrealPong\Public\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealPong\Public\Core\PongPlayer.h">
+      <Filter>Source\UnrealPong\Public\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealPong\Public\Core\PongPlayerState.h">
+      <Filter>Source\UnrealPong\Public\Core</Filter>
+    </ClInclude>
+    <Filter Include="Source\UnrealPong\Public\UI">
+      <UniqueIdentifier>{0ACF54A8-C473-48DA-9B63-0CB2BA8D949B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\UnrealPong\Public\UI\PongGameHUD.h">
+      <Filter>Source\UnrealPong\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealPong\Public\UI\PongInGameMenu.h">
+      <Filter>Source\UnrealPong\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealPong\Public\UI\PongMainMenu.h">
+      <Filter>Source\UnrealPong\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealPong\Public\UI\PongMenuInterface.h">
+      <Filter>Source\UnrealPong\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealPong\Public\UI\PongMenuWidget.h">
+      <Filter>Source\UnrealPong\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealPong\Public\UI\PongServerRow.h">
+      <Filter>Source\UnrealPong\Public\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

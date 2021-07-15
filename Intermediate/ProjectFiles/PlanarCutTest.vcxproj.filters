@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\PlanarCutTest\PlanarCutTest.Target.cs" />
+    <None Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\PlanarCutTest\PlanarCutTest.Build.cs" />
+    <Filter Include="Private">
+      <UniqueIdentifier>{6C5BF1EA-24F9-4422-BFC2-8E8F89980B23}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\PlanarCutTest\Private\PlanarCutTest.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <Filter Include="Public">
+      <UniqueIdentifier>{32419AE0-9A90-49C8-B49A-EF848AC59322}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\PlanarCutTest\Public\PlanarCutTest.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{CDD6C9C8-AF4B-48C8-A9CE-74C6C3494E3F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\..\..\Engine\Engine\Restricted\NotForLicensees\Source\Programs\PlanarCutTest\Resource\CylinderGeometry.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
