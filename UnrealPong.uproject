@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{BE7A7560-4515-D28D-075A-E8AC1688E7BB}",
+	"EngineAssociation": "",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -15,10 +15,9 @@
 		}
 	],
 	"TargetPlatforms": [
-		"Android",
-		"IOS",
 		"Linux",
 		"Mac",
-		"Windows"
+		"Windows",
+		"WindowsNoEditor"
 	]
 }

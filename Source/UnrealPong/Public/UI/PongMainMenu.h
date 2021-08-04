@@ -99,5 +99,4 @@ private:
 	/** unexposed variables */
 
 	TOptional<uint32> SelectedServerRowIndex;
-	TOptional<uint32> SelectedLoadGameRowIndex;
 };

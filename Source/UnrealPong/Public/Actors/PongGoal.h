@@ -23,12 +23,12 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "PongWall|Components")
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "PongGoal|Components")
 	UStaticMeshComponent* StaticMeshComponent;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "PongWall|Components")
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "PongGoal|Components")
 	UBoxComponent* BoxComponent;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PongWall|Config")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PongGoal|Config")
 	int PlayerNumber {};
 };

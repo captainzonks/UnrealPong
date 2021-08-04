@@ -208,7 +208,7 @@ void UPongGameInstance::CreateSession() const
 		SessionSettings.Set(SERVER_NAME_SETTINGS_KEY, ServerData.Name,
 		                    EOnlineDataAdvertisementType::ViaOnlineServiceAndPing);
 
-		SessionInterface->CreateSession(0, SESSION_NAME, SessionSettings);
+		SessionInterface->CreateSession(0, NAME_GameSession, SessionSettings);
 	}
 }
 
